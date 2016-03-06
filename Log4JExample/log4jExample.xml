@@ -1,0 +1,28 @@
+<log4j:event logger="log4jExample.log4jExample" timestamp="1454588008674" level="TRACE" thread="main">
+<log4j:message><![CDATA[Sample trace message]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="log4jExample.log4jExample" timestamp="1454588008674" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Sample debug message]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="log4jExample.log4jExample" timestamp="1454588008674" level="INFO" thread="main">
+<log4j:message><![CDATA[Sample info message]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="log4jExample.log4jExample" timestamp="1454588008674" level="WARN" thread="main">
+<log4j:message><![CDATA[Sample warn message]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="log4jExample.log4jExample" timestamp="1454588008674" level="ERROR" thread="main">
+<log4j:message><![CDATA[Sample error message]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="log4jExample.log4jExample" timestamp="1454588008674" level="FATAL" thread="main">
+<log4j:message><![CDATA[Sample fatal message]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="log4jExample.log4jExample" timestamp="1454588008674" level="ERROR" thread="main">
+<log4j:message><![CDATA[Sorry, something is wrong: java.lang.ArithmeticException]]></log4j:message>
+</log4j:event>
+
