@@ -1,0 +1,1201 @@
+[07-02-2016 08:58:49,894] DEBUG logging:28 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[07-02-2016 08:58:49,904] DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[07-02-2016 08:58:49,906] DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[07-02-2016 08:58:49,910] DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[07-02-2016 08:58:49,917] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Cache71] -> [org.hibernate.dialect.Cache71Dialect]
+[07-02-2016 08:58:49,918] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [CUBRID] -> [org.hibernate.dialect.CUBRIDDialect]
+[07-02-2016 08:58:49,919] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2] -> [org.hibernate.dialect.DB2Dialect]
+[07-02-2016 08:58:49,919] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2390] -> [org.hibernate.dialect.DB2390Dialect]
+[07-02-2016 08:58:49,920] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2400] -> [org.hibernate.dialect.DB2400Dialect]
+[07-02-2016 08:58:49,921] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenFive] -> [org.hibernate.dialect.DerbyTenFiveDialect]
+[07-02-2016 08:58:49,921] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenSix] -> [org.hibernate.dialect.DerbyTenSixDialect]
+[07-02-2016 08:58:49,922] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenSeven] -> [org.hibernate.dialect.DerbyTenSevenDialect]
+[07-02-2016 08:58:49,923] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Firebird] -> [org.hibernate.dialect.FirebirdDialect]
+[07-02-2016 08:58:49,923] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [FrontBase] -> [org.hibernate.dialect.FrontBaseDialect]
+[07-02-2016 08:58:49,924] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [H2] -> [org.hibernate.dialect.H2Dialect]
+[07-02-2016 08:58:49,925] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HSQL] -> [org.hibernate.dialect.HSQLDialect]
+[07-02-2016 08:58:49,927] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Informix] -> [org.hibernate.dialect.InformixDialect]
+[07-02-2016 08:58:49,928] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres] -> [org.hibernate.dialect.IngresDialect]
+[07-02-2016 08:58:49,928] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres9] -> [org.hibernate.dialect.Ingres9Dialect]
+[07-02-2016 08:58:49,929] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres10] -> [org.hibernate.dialect.Ingres10Dialect]
+[07-02-2016 08:58:49,929] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Interbase] -> [org.hibernate.dialect.InterbaseDialect]
+[07-02-2016 08:58:49,929] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [JDataStore] -> [org.hibernate.dialect.JDataStoreDialect]
+[07-02-2016 08:58:49,930] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Mckoi] -> [org.hibernate.dialect.MckoiDialect]
+[07-02-2016 08:58:49,931] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MimerSQL] -> [org.hibernate.dialect.MimerSQLDialect]
+[07-02-2016 08:58:49,932] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect]
+[07-02-2016 08:58:49,932] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect]
+[07-02-2016 08:58:49,933] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL57InnoDB] -> [org.hibernate.dialect.MySQL57InnoDBDialect]
+[07-02-2016 08:58:49,936] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle8i] -> [org.hibernate.dialect.Oracle8iDialect]
+[07-02-2016 08:58:49,937] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle9i] -> [org.hibernate.dialect.Oracle9iDialect]
+[07-02-2016 08:58:49,937] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle10g] -> [org.hibernate.dialect.Oracle10gDialect]
+[07-02-2016 08:58:49,938] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Pointbase] -> [org.hibernate.dialect.PointbaseDialect]
+[07-02-2016 08:58:49,939] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgresPlus] -> [org.hibernate.dialect.PostgresPlusDialect]
+[07-02-2016 08:58:49,940] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL81] -> [org.hibernate.dialect.PostgreSQL81Dialect]
+[07-02-2016 08:58:49,940] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL82] -> [org.hibernate.dialect.PostgreSQL82Dialect]
+[07-02-2016 08:58:49,940] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL9] -> [org.hibernate.dialect.PostgreSQL9Dialect]
+[07-02-2016 08:58:49,941] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Progress] -> [org.hibernate.dialect.ProgressDialect]
+[07-02-2016 08:58:49,941] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SAPDB] -> [org.hibernate.dialect.SAPDBDialect]
+[07-02-2016 08:58:49,943] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer] -> [org.hibernate.dialect.SQLServerDialect]
+[07-02-2016 08:58:49,943] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer2005] -> [org.hibernate.dialect.SQLServer2005Dialect]
+[07-02-2016 08:58:49,943] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer2008] -> [org.hibernate.dialect.SQLServer2008Dialect]
+[07-02-2016 08:58:49,946] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Sybase11] -> [org.hibernate.dialect.Sybase11Dialect]
+[07-02-2016 08:58:49,947] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseAnywhere] -> [org.hibernate.dialect.SybaseAnywhereDialect]
+[07-02-2016 08:58:49,947] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseASE15] -> [org.hibernate.dialect.SybaseASE15Dialect]
+[07-02-2016 08:58:49,948] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseASE157] -> [org.hibernate.dialect.SybaseASE157Dialect]
+[07-02-2016 08:58:49,949] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Teradata] -> [org.hibernate.dialect.TeradataDialect]
+[07-02-2016 08:58:49,949] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [TimesTen] -> [org.hibernate.dialect.TimesTenDialect]
+[07-02-2016 08:58:49,951] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Borland] -> [org.hibernate.engine.transaction.jta.platform.internal.BorlandEnterpriseServerJtaPlatform]
+[07-02-2016 08:58:49,951] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.BorlandEnterpriseServerJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.BorlandEnterpriseServerJtaPlatform]
+[07-02-2016 08:58:49,952] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Bitronix] -> [org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform]
+[07-02-2016 08:58:49,952] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.BitronixJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform]
+[07-02-2016 08:58:49,952] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JBossAS] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+[07-02-2016 08:58:49,953] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JBossAppServerJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+[07-02-2016 08:58:49,953] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JBossTS] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+[07-02-2016 08:58:49,953] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JBossStandAloneJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+[07-02-2016 08:58:49,954] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JOnAS] -> [org.hibernate.engine.transaction.jta.platform.internal.JOnASJtaPlatform]
+[07-02-2016 08:58:49,954] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JOnASJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JOnASJtaPlatform]
+[07-02-2016 08:58:49,954] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JOTM] -> [org.hibernate.engine.transaction.jta.platform.internal.JOTMJtaPlatform]
+[07-02-2016 08:58:49,955] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JOTMJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JOTMJtaPlatform]
+[07-02-2016 08:58:49,955] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JRun4] -> [org.hibernate.engine.transaction.jta.platform.internal.JRun4JtaPlatform]
+[07-02-2016 08:58:49,955] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JRun4JtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JRun4JtaPlatform]
+[07-02-2016 08:58:49,956] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [OC4J] -> [org.hibernate.engine.transaction.jta.platform.internal.OC4JJtaPlatform]
+[07-02-2016 08:58:49,956] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.OC4JJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.OC4JJtaPlatform]
+[07-02-2016 08:58:49,956] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Orion] -> [org.hibernate.engine.transaction.jta.platform.internal.OrionJtaPlatform]
+[07-02-2016 08:58:49,956] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.OrionJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.OrionJtaPlatform]
+[07-02-2016 08:58:49,957] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Resin] -> [org.hibernate.engine.transaction.jta.platform.internal.ResinJtaPlatform]
+[07-02-2016 08:58:49,957] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.ResinJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.ResinJtaPlatform]
+[07-02-2016 08:58:49,957] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [SunOne] -> [org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform]
+[07-02-2016 08:58:49,958] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.SunOneJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform]
+[07-02-2016 08:58:49,958] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Weblogic] -> [org.hibernate.engine.transaction.jta.platform.internal.WeblogicJtaPlatform]
+[07-02-2016 08:58:49,958] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WeblogicJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WeblogicJtaPlatform]
+[07-02-2016 08:58:49,959] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphere] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereJtaPlatform]
+[07-02-2016 08:58:49,959] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WebSphereJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereJtaPlatform]
+[07-02-2016 08:58:49,959] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphereExtended] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereExtendedJtaPlatform]
+[07-02-2016 08:58:49,960] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WebSphereExtendedJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereExtendedJtaPlatform]
+[07-02-2016 08:58:49,960] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.resource.transaction.TransactionCoordinatorBuilder] : [jdbc] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+[07-02-2016 08:58:49,961] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.resource.transaction.TransactionCoordinatorBuilder] : [jta] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+[07-02-2016 08:58:49,961] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.resource.transaction.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JDBCTransactionFactory] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+[07-02-2016 08:58:49,961] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.resource.transaction.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JTATransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+[07-02-2016 08:58:49,961] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.resource.transaction.TransactionCoordinatorBuilder] : [org.hibernate.transaction.CMTTransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+[07-02-2016 08:58:49,961] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [persistent] -> [org.hibernate.hql.spi.id.persistent.PersistentTableBulkIdStrategy]
+[07-02-2016 08:58:49,961] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [global_temporary] -> [org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy]
+[07-02-2016 08:58:49,961] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [local_temporary] -> [org.hibernate.hql.spi.id.local.LocalTemporaryTableBulkIdStrategy]
+[07-02-2016 08:58:49,961] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [disallow] -> [org.hibernate.event.internal.EntityCopyNotAllowedObserver]
+[07-02-2016 08:58:49,961] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [allow] -> [org.hibernate.event.internal.EntityCopyAllowedObserver]
+[07-02-2016 08:58:49,961] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [log] -> [org.hibernate.event.internal.EntityCopyAllowedLoggedObserver]
+[07-02-2016 08:58:49,961] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [default] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+[07-02-2016 08:58:49,961] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+[07-02-2016 08:58:49,961] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl]
+[07-02-2016 08:58:49,961] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-hbm] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl]
+[07-02-2016 08:58:49,961] TRACE StrategySelectorImpl:53 - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [component-path] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyComponentPathImpl]
+[07-02-2016 08:58:50,003] INFO  Version:37 - HHH000412: Hibernate Core {5.0.7.Final}
+[07-02-2016 08:58:50,005] INFO  Environment:213 - HHH000206: hibernate.properties not found
+[07-02-2016 08:58:50,006] INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+[07-02-2016 08:58:50,019] TRACE ClassLoaderServiceImpl:258 - trying via [new URL("hibernate.cfg.xml")]
+[07-02-2016 08:58:50,020] TRACE ClassLoaderServiceImpl:265 - trying via [ClassLoader.getResourceAsStream("hibernate.cfg.xml")]
+[07-02-2016 08:58:50,043] TRACE LocalXmlResourceResolver:35 - In resolveEntity(null, http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd, null, null)
+[07-02-2016 08:58:50,043] DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [null] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[07-02-2016 08:58:50,043] DEBUG LocalXmlResourceResolver:85 - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[07-02-2016 08:58:50,047] DEBUG JaxbCfgProcessor:116 - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+[07-02-2016 08:58:50,407] DEBUG Configuration:722 - Building session factory using internal StandardServiceRegistryBuilder
+[07-02-2016 08:58:50,414] DEBUG ServiceBinding:68 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[07-02-2016 08:58:50,414] DEBUG Configuration:653 - Building session factory using provided StandardServiceRegistry
+[07-02-2016 08:58:50,424] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.engine.config.spi.ConfigurationService]
+[07-02-2016 08:58:50,430] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.cache.spi.RegionFactory]
+[07-02-2016 08:58:50,431] DEBUG RegionFactoryInitiator:88 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[07-02-2016 08:58:50,438] INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[07-02-2016 08:58:50,443] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.boot.cfgxml.spi.CfgXmlAccessService]
+[07-02-2016 08:58:50,445] TRACE XmlMappingBinderAccess:51 - reading mappings from resource : Employee.hbm.xml
+[07-02-2016 08:58:50,448] TRACE LocalXmlResourceResolver:35 - In resolveEntity(-//Hibernate/Hibernate Mapping DTD//EN, http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd, null, null)
+[07-02-2016 08:58:50,448] DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [-//Hibernate/Hibernate Mapping DTD//EN] - [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+[07-02-2016 08:58:50,448] DEBUG LocalXmlResourceResolver:59 - Recognized hibernate-mapping identifier; attempting to resolve on classpath under org/hibernate/
+[07-02-2016 08:58:50,450] DEBUG MappingBinder:58 - Performing JAXB binding of hbm.xml document : Origin(name=Employee.hbm.xml,type=RESOURCE)
+[07-02-2016 08:58:51,133] DEBUG BasicTypeRegistry:135 - Adding type registration boolean -> org.hibernate.type.BooleanType@1e2019a
+[07-02-2016 08:58:51,133] DEBUG BasicTypeRegistry:135 - Adding type registration boolean -> org.hibernate.type.BooleanType@1e2019a
+[07-02-2016 08:58:51,133] DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1e2019a
+[07-02-2016 08:58:51,134] DEBUG BasicTypeRegistry:135 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@57d4dd
+[07-02-2016 08:58:51,135] DEBUG BasicTypeRegistry:135 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@100b2f3
+[07-02-2016 08:58:51,135] DEBUG BasicTypeRegistry:135 - Adding type registration yes_no -> org.hibernate.type.YesNoType@1db2b13
+[07-02-2016 08:58:51,137] DEBUG BasicTypeRegistry:135 - Adding type registration byte -> org.hibernate.type.ByteType@1919693
+[07-02-2016 08:58:51,137] DEBUG BasicTypeRegistry:135 - Adding type registration byte -> org.hibernate.type.ByteType@1919693
+[07-02-2016 08:58:51,137] DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@1919693
+[07-02-2016 08:58:51,138] DEBUG BasicTypeRegistry:135 - Adding type registration character -> org.hibernate.type.CharacterType@184b82d
+[07-02-2016 08:58:51,138] DEBUG BasicTypeRegistry:135 - Adding type registration char -> org.hibernate.type.CharacterType@184b82d
+[07-02-2016 08:58:51,138] DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@184b82d
+[07-02-2016 08:58:51,139] DEBUG BasicTypeRegistry:135 - Adding type registration short -> org.hibernate.type.ShortType@19e9475
+[07-02-2016 08:58:51,139] DEBUG BasicTypeRegistry:135 - Adding type registration short -> org.hibernate.type.ShortType@19e9475
+[07-02-2016 08:58:51,139] DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@19e9475
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration integer -> org.hibernate.type.IntegerType@dd7b39
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration int -> org.hibernate.type.IntegerType@dd7b39
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@dd7b39
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration long -> org.hibernate.type.LongType@168f0dc
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration long -> org.hibernate.type.LongType@168f0dc
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@168f0dc
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration float -> org.hibernate.type.FloatType@c1b2d2
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration float -> org.hibernate.type.FloatType@c1b2d2
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@c1b2d2
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration double -> org.hibernate.type.DoubleType@1f8da7a
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration double -> org.hibernate.type.DoubleType@1f8da7a
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1f8da7a
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@1c90a9c
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@1c90a9c
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@158853c
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@158853c
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration string -> org.hibernate.type.StringType@1816741
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.String -> org.hibernate.type.StringType@1816741
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@167a4d3
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@15b0b49
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration url -> org.hibernate.type.UrlType@1be3395
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@1be3395
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration date -> org.hibernate.type.DateType@1526e59
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@1526e59
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration time -> org.hibernate.type.TimeType@10d2164
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@10d2164
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration timestamp -> org.hibernate.type.TimestampType@68e664
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@68e664
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@68e664
+[07-02-2016 08:58:51,140] DEBUG BasicTypeRegistry:135 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@9a1df5
+[07-02-2016 08:58:51,158] DEBUG BasicTypeRegistry:135 - Adding type registration calendar -> org.hibernate.type.CalendarType@167f57d
+[07-02-2016 08:58:51,159] DEBUG BasicTypeRegistry:135 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@167f57d
+[07-02-2016 08:58:51,159] DEBUG BasicTypeRegistry:135 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@167f57d
+[07-02-2016 08:58:51,160] DEBUG BasicTypeRegistry:135 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@2055d6
+[07-02-2016 08:58:51,161] DEBUG BasicTypeRegistry:135 - Adding type registration locale -> org.hibernate.type.LocaleType@194a50
+[07-02-2016 08:58:51,161] DEBUG BasicTypeRegistry:135 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@194a50
+[07-02-2016 08:58:51,162] DEBUG BasicTypeRegistry:135 - Adding type registration currency -> org.hibernate.type.CurrencyType@d48653
+[07-02-2016 08:58:51,162] DEBUG BasicTypeRegistry:135 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@d48653
+[07-02-2016 08:58:51,163] DEBUG BasicTypeRegistry:135 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@1710c6
+[07-02-2016 08:58:51,163] DEBUG BasicTypeRegistry:135 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1710c6
+[07-02-2016 08:58:51,164] DEBUG BasicTypeRegistry:135 - Adding type registration class -> org.hibernate.type.ClassType@17758be
+[07-02-2016 08:58:51,164] DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@17758be
+[07-02-2016 08:58:51,165] DEBUG BasicTypeRegistry:135 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@c296f6
+[07-02-2016 08:58:51,165] DEBUG BasicTypeRegistry:135 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@c296f6
+[07-02-2016 08:58:51,166] DEBUG BasicTypeRegistry:135 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@fa769e
+[07-02-2016 08:58:51,167] DEBUG BasicTypeRegistry:135 - Adding type registration binary -> org.hibernate.type.BinaryType@317edc
+[07-02-2016 08:58:51,167] DEBUG BasicTypeRegistry:135 - Adding type registration byte[] -> org.hibernate.type.BinaryType@317edc
+[07-02-2016 08:58:51,167] DEBUG BasicTypeRegistry:135 - Adding type registration [B -> org.hibernate.type.BinaryType@317edc
+[07-02-2016 08:58:51,169] DEBUG BasicTypeRegistry:135 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@149c063
+[07-02-2016 08:58:51,169] DEBUG BasicTypeRegistry:135 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@149c063
+[07-02-2016 08:58:51,169] DEBUG BasicTypeRegistry:135 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@149c063
+[07-02-2016 08:58:51,170] DEBUG BasicTypeRegistry:135 - Adding type registration image -> org.hibernate.type.ImageType@656be4
+[07-02-2016 08:58:51,170] DEBUG BasicTypeRegistry:135 - Adding type registration characters -> org.hibernate.type.CharArrayType@2a59e6
+[07-02-2016 08:58:51,171] DEBUG BasicTypeRegistry:135 - Adding type registration char[] -> org.hibernate.type.CharArrayType@2a59e6
+[07-02-2016 08:58:51,171] DEBUG BasicTypeRegistry:135 - Adding type registration [C -> org.hibernate.type.CharArrayType@2a59e6
+[07-02-2016 08:58:51,172] DEBUG BasicTypeRegistry:135 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@83d3eb
+[07-02-2016 08:58:51,172] DEBUG BasicTypeRegistry:135 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@83d3eb
+[07-02-2016 08:58:51,172] DEBUG BasicTypeRegistry:135 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@83d3eb
+[07-02-2016 08:58:51,173] DEBUG BasicTypeRegistry:135 - Adding type registration text -> org.hibernate.type.TextType@1c81abf
+[07-02-2016 08:58:51,173] DEBUG BasicTypeRegistry:135 - Adding type registration ntext -> org.hibernate.type.NTextType@ce57c7
+[07-02-2016 08:58:51,177] DEBUG BasicTypeRegistry:135 - Adding type registration blob -> org.hibernate.type.BlobType@18db956
+[07-02-2016 08:58:51,177] DEBUG BasicTypeRegistry:135 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@18db956
+[07-02-2016 08:58:51,177] DEBUG BasicTypeRegistry:135 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1bd8b5c
+[07-02-2016 08:58:51,180] DEBUG BasicTypeRegistry:135 - Adding type registration clob -> org.hibernate.type.ClobType@bc222e
+[07-02-2016 08:58:51,180] DEBUG BasicTypeRegistry:135 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@bc222e
+[07-02-2016 08:58:51,183] DEBUG BasicTypeRegistry:135 - Adding type registration nclob -> org.hibernate.type.NClobType@d1e646
+[07-02-2016 08:58:51,183] DEBUG BasicTypeRegistry:135 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@d1e646
+[07-02-2016 08:58:51,183] DEBUG BasicTypeRegistry:135 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1a04efb
+[07-02-2016 08:58:51,184] DEBUG BasicTypeRegistry:135 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@1edaa7d
+[07-02-2016 08:58:51,185] DEBUG BasicTypeRegistry:135 - Adding type registration serializable -> org.hibernate.type.SerializableType@150ed69
+[07-02-2016 08:58:51,187] DEBUG BasicTypeRegistry:135 - Adding type registration object -> org.hibernate.type.ObjectType@120155b
+[07-02-2016 08:58:51,187] DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@120155b
+[07-02-2016 08:58:51,191] DEBUG BasicTypeRegistry:135 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@1ce8fd9
+[07-02-2016 08:58:51,191] DEBUG BasicTypeRegistry:135 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@9bcfb6
+[07-02-2016 08:58:51,191] DEBUG BasicTypeRegistry:135 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@194beb9
+[07-02-2016 08:58:51,191] DEBUG BasicTypeRegistry:135 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@348e6
+[07-02-2016 08:58:51,191] DEBUG BasicTypeRegistry:135 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1f8b5b8
+[07-02-2016 08:58:51,192] DEBUG BasicTypeRegistry:135 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1202fce
+[07-02-2016 08:58:51,192] DEBUG BasicTypeRegistry:135 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1993c65
+[07-02-2016 08:58:51,192] DEBUG BasicTypeRegistry:135 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@1911f88
+[07-02-2016 08:58:51,192] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.engine.jdbc.spi.JdbcServices]
+[07-02-2016 08:58:51,194] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+[07-02-2016 08:58:51,194] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectFactory]
+[07-02-2016 08:58:51,195] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectResolver]
+[07-02-2016 08:58:51,199] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.engine.jdbc.connections.spi.ConnectionProvider]
+[07-02-2016 08:58:51,201] WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[07-02-2016 08:58:51,206] INFO  connections:127 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/test?useSSL=false]
+[07-02-2016 08:58:51,206] INFO  connections:133 - HHH10001001: Connection properties: {user=root, password=1234}
+[07-02-2016 08:58:51,207] INFO  connections:141 - HHH10001003: Autocommit mode: false
+[07-02-2016 08:58:51,209] DEBUG DriverManagerConnectionProviderImpl:384 - Initializing Connection pool with 1 Connections
+[07-02-2016 08:58:51,210] INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+[07-02-2016 08:58:51,426] DEBUG JdbcEnvironmentInitiator:72 - Database ->
+       name : MySQL
+    version : 5.7.10-log
+      major : 5
+      minor : 7
+[07-02-2016 08:58:51,426] DEBUG JdbcEnvironmentInitiator:83 - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.38 ( Revision: fe541c166cec739c74cc727c5da96c1028b4834a )
+      major : 5
+      minor : 1
+[07-02-2016 08:58:51,426] DEBUG JdbcEnvironmentInitiator:389 - JDBC version : 4.0
+[07-02-2016 08:58:51,437] INFO  Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[07-02-2016 08:58:51,454] DEBUG StandardRefCursorSupport:170 - Unexpected error trying to gauge level of JDBC REF_CURSOR support : null
+[07-02-2016 08:58:51,470] DEBUG IdentifierHelperBuilder:116 - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[07-02-2016 08:58:51,472] DEBUG IdentifierHelperBuilder:182 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[07-02-2016 08:58:51,474] TRACE NormalizingIdentifierHelperImpl:58 - Normalizing identifier quoting [test]
+[07-02-2016 08:58:51,474] TRACE NormalizingIdentifierHelperImpl:58 - Normalizing identifier quoting [null]
+[07-02-2016 08:58:51,568] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.id.factory.spi.MutableIdentifierGeneratorFactory]
+[07-02-2016 08:58:51,570] DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[07-02-2016 08:58:51,570] DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[07-02-2016 08:58:51,571] DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[07-02-2016 08:58:51,571] DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[07-02-2016 08:58:51,571] DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[07-02-2016 08:58:51,572] DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[07-02-2016 08:58:51,572] DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[07-02-2016 08:58:51,573] DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[07-02-2016 08:58:51,574] DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[07-02-2016 08:58:51,575] DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[07-02-2016 08:58:51,575] DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[07-02-2016 08:58:51,575] DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[07-02-2016 08:58:51,575] DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[07-02-2016 08:58:51,576] DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[07-02-2016 08:58:51,585] TRACE EntityHierarchyBuilder:89 - Indexing mapping document [Origin(name=Employee.hbm.xml,type=RESOURCE)] for purpose of building entity hierarchy ordering
+[07-02-2016 08:58:51,623] DEBUG Namespace:47 - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[07-02-2016 08:58:51,644] TRACE InFlightMetadataCollectorImpl:707 - Import: com.tutorialspoint.example.Employee -> com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,644] TRACE InFlightMetadataCollectorImpl:707 - Import: Employee -> com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,645] TRACE NormalizingIdentifierHelperImpl:58 - Normalizing identifier quoting [EMPLOYEE]
+[07-02-2016 08:58:51,646] DEBUG ModelBinder:229 - Mapping class: com.tutorialspoint.example.Employee -> EMPLOYEE
+[07-02-2016 08:58:51,651] TRACE NormalizingIdentifierHelperImpl:58 - Normalizing identifier quoting [id]
+[07-02-2016 08:58:51,652] DEBUG ModelBinder:2490 - Mapped property: id -> [id]
+[07-02-2016 08:58:51,653] DEBUG PrimaryKey:35 - Forcing column [id] to be non-null as it is part of the primary key for table [employee]
+[07-02-2016 08:58:51,654] TRACE NormalizingIdentifierHelperImpl:58 - Normalizing identifier quoting [first_name]
+[07-02-2016 08:58:51,654] DEBUG ModelBinder:2490 - Mapped property: firstName -> [first_name]
+[07-02-2016 08:58:51,654] TRACE NormalizingIdentifierHelperImpl:58 - Normalizing identifier quoting [last_name]
+[07-02-2016 08:58:51,654] DEBUG ModelBinder:2490 - Mapped property: lastName -> [last_name]
+[07-02-2016 08:58:51,654] TRACE NormalizingIdentifierHelperImpl:58 - Normalizing identifier quoting [salary]
+[07-02-2016 08:58:51,654] DEBUG ModelBinder:2490 - Mapped property: salary -> [salary]
+[07-02-2016 08:58:51,657] DEBUG AnnotationMetadataSourceProcessorImpl:241 - Skipping annotated class processing of entity [com.tutorialspoint.example.Employee], as it has already been processed
+[07-02-2016 08:58:51,669] TRACE BatchFetchStyle:51 - Interpreting BatchFetchStyle from setting : null
+[07-02-2016 08:58:51,670] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.resource.transaction.TransactionCoordinatorBuilder]
+[07-02-2016 08:58:51,736] DEBUG SessionFactoryImpl:210 - Building session factory
+[07-02-2016 08:58:51,737] DEBUG Settings:69 - SessionFactory name : null
+[07-02-2016 08:58:51,737] DEBUG Settings:70 - Automatic flush during beforeCompletion(): disabled
+[07-02-2016 08:58:51,737] DEBUG Settings:71 - Automatic session close at end of transaction: disabled
+[07-02-2016 08:58:51,737] DEBUG Settings:73 - Statistics: disabled
+[07-02-2016 08:58:51,737] DEBUG Settings:75 - Deleted entity synthetic identifier rollback: disabled
+[07-02-2016 08:58:51,737] DEBUG Settings:76 - Default entity-mode: pojo
+[07-02-2016 08:58:51,737] DEBUG Settings:77 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[07-02-2016 08:58:51,737] DEBUG Settings:78 - Allow initialization of lazy state outside session : disabled
+[07-02-2016 08:58:51,737] DEBUG Settings:80 - Using BatchFetchStyle : LEGACY
+[07-02-2016 08:58:51,738] DEBUG Settings:81 - Default batch fetch size: -1
+[07-02-2016 08:58:51,738] DEBUG Settings:82 - Maximum outer join fetch depth: 2
+[07-02-2016 08:58:51,738] DEBUG Settings:83 - Default null ordering: NONE
+[07-02-2016 08:58:51,738] DEBUG Settings:84 - Order SQL updates by primary key: disabled
+[07-02-2016 08:58:51,738] DEBUG Settings:85 - Order SQL inserts for batching: disabled
+[07-02-2016 08:58:51,738] DEBUG Settings:87 - multi-tenancy strategy : NONE
+[07-02-2016 08:58:51,738] DEBUG Settings:89 - JTA Track by Thread: enabled
+[07-02-2016 08:58:51,738] DEBUG Settings:91 - Query language substitutions: {}
+[07-02-2016 08:58:51,738] DEBUG Settings:92 - JPA query language strict compliance: disabled
+[07-02-2016 08:58:51,739] DEBUG Settings:93 - Named query checking : enabled
+[07-02-2016 08:58:51,739] DEBUG Settings:95 - Second-level cache: enabled
+[07-02-2016 08:58:51,739] DEBUG Settings:96 - Second-level query cache: disabled
+[07-02-2016 08:58:51,739] DEBUG Settings:97 - Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@17d2e85
+[07-02-2016 08:58:51,739] DEBUG Settings:98 - Second-level cache region prefix: null
+[07-02-2016 08:58:51,739] DEBUG Settings:99 - Optimize second-level cache for minimal puts: disabled
+[07-02-2016 08:58:51,739] DEBUG Settings:100 - Structured second-level cache entries: disabled
+[07-02-2016 08:58:51,739] DEBUG Settings:101 - Second-level cache direct-reference entries: disabled
+[07-02-2016 08:58:51,739] DEBUG Settings:102 - Automatic eviction of collection cache: disabled
+[07-02-2016 08:58:51,740] DEBUG Settings:104 - JDBC batch size: 15
+[07-02-2016 08:58:51,740] DEBUG Settings:105 - JDBC batch updates for versioned data: enabled
+[07-02-2016 08:58:51,740] DEBUG Settings:106 - Scrollable result sets: enabled
+[07-02-2016 08:58:51,740] DEBUG Settings:107 - Wrap result sets: disabled
+[07-02-2016 08:58:51,740] DEBUG Settings:108 - JDBC3 getGeneratedKeys(): enabled
+[07-02-2016 08:58:51,740] DEBUG Settings:109 - JDBC result set fetch size: null
+[07-02-2016 08:58:51,740] DEBUG Settings:110 - Connection release mode: ON_CLOSE
+[07-02-2016 08:58:51,740] DEBUG Settings:111 - Generate SQL with comments: disabled
+[07-02-2016 08:58:51,740] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.service.spi.SessionFactoryServiceRegistryFactory]
+[07-02-2016 08:58:51,741] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.event.service.spi.EventListenerRegistry]
+[07-02-2016 08:58:51,773] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.engine.spi.CacheImplementor]
+[07-02-2016 08:58:51,775] TRACE TypeFactory:60 - Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@ecbb8d
+[07-02-2016 08:58:51,775] DEBUG SessionFactoryImpl:875 - Returning a Reference to the SessionFactory
+[07-02-2016 08:58:51,776] DEBUG SessionFactoryImpl:255 - Session factory constructed with filter configurations : {}
+[07-02-2016 08:58:51,776] DEBUG SessionFactoryImpl:256 - Instantiating session factory with properties: {hibernate.connection.password=1234, java.runtime.name=Java(TM) SE Runtime Environment, java.vm.version=25.60-b23, sun.boot.library.path=C:\Program Files (x86)\Java\jre1.8.0_60\bin, hibernate.connection.username=root, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@758afa, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) Client VM, file.encoding.pkg=sun.io, sun.os.patch.level=, user.script=, user.country=CZ, sun.java.launcher=SUN_STANDARD, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\Dejvi\Programs\eclipse\workspace\Hibernate, java.runtime.version=1.8.0_60-b27, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, os.arch=x86, java.endorsed.dirs=C:\Program Files (x86)\Java\jre1.8.0_60\lib\endorsed, java.io.tmpdir=C:\Users\Dejvi\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=Cp1250, java.library.path=C:\Program Files (x86)\Java\jre1.8.0_60\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre1.8.0_60/bin/client;C:/Program Files (x86)/Java/jre1.8.0_60/bin;C:/Program Files (x86)/Java/jre1.8.0_60/lib/i386;D:\Dejvi\Programs\Python 3.4.0\;D:\Dejvi\Programs\Python 3.4.0\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;D:\Dejvi\Programs\Quicktime\QTSystem\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Dejvi\Programs\jEdit;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Dejvi\Programs\Skype\Phone\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;D:\Dejvi\Programs\Java\jdk1.8.0_65\bin;D:\Dejvi\Programs\apache-maven-3.3.9\bin;C:\Users\Dejvi\.apache-ant-1.9.6\bin;D:\Dejvi\Programs\eclipse;;., java.class.version=52.0, java.specification.name=Java Platform API Specification, sun.management.compiler=HotSpot Client Compiler, os.version=10.0, user.home=C:\Users\Dejvi, user.timezone=Europe/Prague, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=Cp1250, java.specification.version=1.8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, user.name=Dejvi, java.class.path=D:\Dejvi\Programs\eclipse\workspace\Hibernate\bin;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\required\antlr-2.7.7.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\required\dom4j-1.6.1.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\required\geronimo-jta_1.1_spec-1.1.1.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\required\hibernate-commons-annotations-5.0.1.Final.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\required\hibernate-core-5.0.7.Final.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\required\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\required\jandex-2.0.0.Final.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\required\javassist-3.18.1-GA.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\required\jboss-logging-3.3.0.Final.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\others\cglib-3.2.0.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\others\cglib-nodep-3.2.0.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\others\mysql-connector-java-5.1.38-bin.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\others\resolver.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\others\serializer.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\others\slf4j-api-1.7.14.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\others\slf4j-simple-1.7.14.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\others\xalan.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\others\xercesImpl.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\others\xercesSamples.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\others\xml-apis.jar;C:\Users\Dejvi\.hibernate-release-5.0.7.Final\lib\others\log4j-1.2.16.jar, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.version=1.8, sun.arch.data.model=32, sun.java.command=com.tutorialspoint.example.ManageEmployee, java.home=C:\Program Files (x86)\Java\jre1.8.0_60, hibernate.connection.url=jdbc:mysql://localhost/test?useSSL=false, hibernate.dialect=org.hibernate.dialect.MySQLDialect, user.language=cs, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, sharing, java.version=1.8.0_60, java.ext.dirs=C:\Program Files (x86)\Java\jre1.8.0_60\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files (x86)\Java\jre1.8.0_60\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_60\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86}
+[07-02-2016 08:58:51,782] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.engine.query.spi.NativeQueryInterpreter]
+[07-02-2016 08:58:51,785] DEBUG JaccIntegrator:80 - Skipping JACC integration as it was not enabled
+[07-02-2016 08:58:51,785] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.persister.spi.PersisterFactory]
+[07-02-2016 08:58:51,788] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.persister.spi.PersisterClassResolver]
+[07-02-2016 08:58:51,807] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.property.access.spi.PropertyAccessStrategyResolver]
+[07-02-2016 08:58:51,809] DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [com.tutorialspoint.example.Employee] is safe
+[07-02-2016 08:58:51,809] DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,826] DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [com.tutorialspoint.example.Employee] is safe
+[07-02-2016 08:58:51,826] DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,895] TRACE AbstractPropertyMapping:122 - Skipping duplicate registration of path [firstName], existing type = [org.hibernate.type.StringType@1816741], incoming type = [org.hibernate.type.StringType@1816741]
+[07-02-2016 08:58:51,895] TRACE AbstractPropertyMapping:122 - Skipping duplicate registration of path [lastName], existing type = [org.hibernate.type.StringType@1816741], incoming type = [org.hibernate.type.StringType@1816741]
+[07-02-2016 08:58:51,895] TRACE AbstractPropertyMapping:122 - Skipping duplicate registration of path [salary], existing type = [org.hibernate.type.IntegerType@dd7b39], incoming type = [org.hibernate.type.IntegerType@dd7b39]
+[07-02-2016 08:58:51,895] TRACE AbstractPropertyMapping:122 - Skipping duplicate registration of path [id], existing type = [org.hibernate.type.IntegerType@dd7b39], incoming type = [org.hibernate.type.IntegerType@dd7b39]
+[07-02-2016 08:58:51,900] DEBUG AbstractEntityPersister:3481 - Static SQL for entity: com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,900] DEBUG AbstractEntityPersister:3486 -  Version select: select id from EMPLOYEE where id =?
+[07-02-2016 08:58:51,900] DEBUG AbstractEntityPersister:3489 -  Snapshot select: select employee_.id, employee_.first_name as first_na2_0_, employee_.last_name as last_nam3_0_, employee_.salary as salary4_0_ from EMPLOYEE employee_ where employee_.id=?
+[07-02-2016 08:58:51,900] DEBUG AbstractEntityPersister:394 -  Insert 0: insert into EMPLOYEE (first_name, last_name, salary, id) values (?, ?, ?, ?)
+[07-02-2016 08:58:51,901] DEBUG AbstractEntityPersister:394 -  Update 0: update EMPLOYEE set first_name=?, last_name=?, salary=? where id=?
+[07-02-2016 08:58:51,901] DEBUG AbstractEntityPersister:394 -  Delete 0: delete from EMPLOYEE where id=?
+[07-02-2016 08:58:51,901] DEBUG AbstractEntityPersister:3497 -  Identity insert: insert into EMPLOYEE (first_name, last_name, salary) values (?, ?, ?)
+[07-02-2016 08:58:51,916] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:171 -  Starting root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,922] DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@17f3d0]
+[07-02-2016 08:58:51,923] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:112 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@416a51
+[07-02-2016 08:58:51,924] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:647 - .. Registering AssociationKey : AssociationKey(table=EMPLOYEE, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@416a51
+[07-02-2016 08:58:51,924] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:238 - >> Starting entity identifier : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,924] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : firstName
+[07-02-2016 08:58:51,925] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,925] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,925] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lastName
+[07-02-2016 08:58:51,925] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,925] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,925] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : salary
+[07-02-2016 08:58:51,925] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,926] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,926] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:119 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@416a51
+[07-02-2016 08:58:51,926] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:207 -  Finished root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,926] DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+[07-02-2016 08:58:51,942] DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+[07-02-2016 08:58:51,946] DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.tutorialspoint.example.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.tutorialspoint.example.Employee, querySpaceUid=<gen:0>, path=com.tutorialspoint.example.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.tutorialspoint.example.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[07-02-2016 08:58:51,948] DEBUG EntityLoader:128 - Static select for entity com.tutorialspoint.example.Employee [NONE]: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=?
+[07-02-2016 08:58:51,948] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:171 -  Starting root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,948] DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@f65451]
+[07-02-2016 08:58:51,949] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:112 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@4f138e
+[07-02-2016 08:58:51,949] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:647 - .. Registering AssociationKey : AssociationKey(table=EMPLOYEE, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@4f138e
+[07-02-2016 08:58:51,949] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:238 - >> Starting entity identifier : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,949] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : firstName
+[07-02-2016 08:58:51,949] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,949] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,949] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lastName
+[07-02-2016 08:58:51,949] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,950] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,950] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : salary
+[07-02-2016 08:58:51,950] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,950] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,952] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:119 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@4f138e
+[07-02-2016 08:58:51,952] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:207 -  Finished root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,952] DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+[07-02-2016 08:58:51,953] DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+[07-02-2016 08:58:51,953] DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.tutorialspoint.example.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.tutorialspoint.example.Employee, querySpaceUid=<gen:0>, path=com.tutorialspoint.example.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.tutorialspoint.example.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[07-02-2016 08:58:51,953] DEBUG EntityLoader:128 - Static select for entity com.tutorialspoint.example.Employee [READ]: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=?
+[07-02-2016 08:58:51,953] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:171 -  Starting root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,953] DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1eeec90]
+[07-02-2016 08:58:51,953] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:112 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@fe9d0a
+[07-02-2016 08:58:51,954] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:647 - .. Registering AssociationKey : AssociationKey(table=EMPLOYEE, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@fe9d0a
+[07-02-2016 08:58:51,954] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:238 - >> Starting entity identifier : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,954] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : firstName
+[07-02-2016 08:58:51,954] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,954] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,954] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lastName
+[07-02-2016 08:58:51,954] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,954] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,955] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : salary
+[07-02-2016 08:58:51,955] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,955] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,955] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:119 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@fe9d0a
+[07-02-2016 08:58:51,955] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:207 -  Finished root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,955] DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+[07-02-2016 08:58:51,955] DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+[07-02-2016 08:58:51,956] DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.tutorialspoint.example.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.tutorialspoint.example.Employee, querySpaceUid=<gen:0>, path=com.tutorialspoint.example.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.tutorialspoint.example.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[07-02-2016 08:58:51,956] DEBUG EntityLoader:128 - Static select for entity com.tutorialspoint.example.Employee [UPGRADE]: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=? for update
+[07-02-2016 08:58:51,956] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:171 -  Starting root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,956] DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@9413d8]
+[07-02-2016 08:58:51,956] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:112 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@4da2a7
+[07-02-2016 08:58:51,956] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:647 - .. Registering AssociationKey : AssociationKey(table=EMPLOYEE, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@4da2a7
+[07-02-2016 08:58:51,956] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:238 - >> Starting entity identifier : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,956] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : firstName
+[07-02-2016 08:58:51,957] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,957] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,957] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lastName
+[07-02-2016 08:58:51,957] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,957] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,957] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : salary
+[07-02-2016 08:58:51,957] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,957] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,958] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:119 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@4da2a7
+[07-02-2016 08:58:51,958] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:207 -  Finished root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,958] DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+[07-02-2016 08:58:51,958] DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+[07-02-2016 08:58:51,958] DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.tutorialspoint.example.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.tutorialspoint.example.Employee, querySpaceUid=<gen:0>, path=com.tutorialspoint.example.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.tutorialspoint.example.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[07-02-2016 08:58:51,958] DEBUG EntityLoader:128 - Static select for entity com.tutorialspoint.example.Employee [UPGRADE_NOWAIT]: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=? for update
+[07-02-2016 08:58:51,959] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:171 -  Starting root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,959] DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@74492]
+[07-02-2016 08:58:51,959] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:112 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@d78795
+[07-02-2016 08:58:51,959] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:647 - .. Registering AssociationKey : AssociationKey(table=EMPLOYEE, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@d78795
+[07-02-2016 08:58:51,959] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:238 - >> Starting entity identifier : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,959] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : firstName
+[07-02-2016 08:58:51,959] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,959] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,960] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lastName
+[07-02-2016 08:58:51,960] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,960] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,960] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : salary
+[07-02-2016 08:58:51,960] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,960] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,960] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:119 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@d78795
+[07-02-2016 08:58:51,960] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:207 -  Finished root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,960] DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+[07-02-2016 08:58:51,961] DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+[07-02-2016 08:58:51,961] DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.tutorialspoint.example.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.tutorialspoint.example.Employee, querySpaceUid=<gen:0>, path=com.tutorialspoint.example.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.tutorialspoint.example.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[07-02-2016 08:58:51,961] DEBUG EntityLoader:128 - Static select for entity com.tutorialspoint.example.Employee [UPGRADE_SKIPLOCKED]: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=? for update
+[07-02-2016 08:58:51,961] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:171 -  Starting root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,961] DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@715e84]
+[07-02-2016 08:58:51,961] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:112 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@1428937
+[07-02-2016 08:58:51,962] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:647 - .. Registering AssociationKey : AssociationKey(table=EMPLOYEE, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@1428937
+[07-02-2016 08:58:51,962] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:238 - >> Starting entity identifier : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,962] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : firstName
+[07-02-2016 08:58:51,962] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,962] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,962] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lastName
+[07-02-2016 08:58:51,962] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,963] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,963] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : salary
+[07-02-2016 08:58:51,963] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,963] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,963] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:119 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@1428937
+[07-02-2016 08:58:51,963] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:207 -  Finished root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,963] DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+[07-02-2016 08:58:51,963] DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+[07-02-2016 08:58:51,964] DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.tutorialspoint.example.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.tutorialspoint.example.Employee, querySpaceUid=<gen:0>, path=com.tutorialspoint.example.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.tutorialspoint.example.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[07-02-2016 08:58:51,964] DEBUG EntityLoader:128 - Static select for entity com.tutorialspoint.example.Employee [FORCE]: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=? for update
+[07-02-2016 08:58:51,964] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:171 -  Starting root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,964] DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@19d6699]
+[07-02-2016 08:58:51,964] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:112 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@1caa550
+[07-02-2016 08:58:51,964] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:647 - .. Registering AssociationKey : AssociationKey(table=EMPLOYEE, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@1caa550
+[07-02-2016 08:58:51,964] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:238 - >> Starting entity identifier : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,964] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : firstName
+[07-02-2016 08:58:51,965] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,965] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,965] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lastName
+[07-02-2016 08:58:51,965] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,965] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,965] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : salary
+[07-02-2016 08:58:51,965] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,965] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,966] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:119 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@1caa550
+[07-02-2016 08:58:51,966] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:207 -  Finished root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,966] DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+[07-02-2016 08:58:51,966] DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+[07-02-2016 08:58:51,966] DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.tutorialspoint.example.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.tutorialspoint.example.Employee, querySpaceUid=<gen:0>, path=com.tutorialspoint.example.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.tutorialspoint.example.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[07-02-2016 08:58:51,966] DEBUG EntityLoader:128 - Static select for entity com.tutorialspoint.example.Employee [PESSIMISTIC_READ]: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=? lock in share mode
+[07-02-2016 08:58:51,966] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:171 -  Starting root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,967] DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1694e53]
+[07-02-2016 08:58:51,967] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:112 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@b16078
+[07-02-2016 08:58:51,967] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:647 - .. Registering AssociationKey : AssociationKey(table=EMPLOYEE, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@b16078
+[07-02-2016 08:58:51,967] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:238 - >> Starting entity identifier : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,967] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : firstName
+[07-02-2016 08:58:51,967] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,967] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,967] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lastName
+[07-02-2016 08:58:51,967] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,968] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,968] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : salary
+[07-02-2016 08:58:51,968] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,968] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,968] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:119 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@b16078
+[07-02-2016 08:58:51,968] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:207 -  Finished root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,968] DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+[07-02-2016 08:58:51,968] DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+[07-02-2016 08:58:51,969] DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.tutorialspoint.example.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.tutorialspoint.example.Employee, querySpaceUid=<gen:0>, path=com.tutorialspoint.example.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.tutorialspoint.example.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[07-02-2016 08:58:51,969] DEBUG EntityLoader:128 - Static select for entity com.tutorialspoint.example.Employee [PESSIMISTIC_WRITE]: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=? for update
+[07-02-2016 08:58:51,969] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:171 -  Starting root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,969] DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@c86919]
+[07-02-2016 08:58:51,969] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:112 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@fab835
+[07-02-2016 08:58:51,969] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:647 - .. Registering AssociationKey : AssociationKey(table=EMPLOYEE, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@fab835
+[07-02-2016 08:58:51,969] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:238 - >> Starting entity identifier : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,969] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : firstName
+[07-02-2016 08:58:51,970] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,970] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,970] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lastName
+[07-02-2016 08:58:51,970] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,970] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,970] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : salary
+[07-02-2016 08:58:51,970] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,970] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,970] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:119 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@fab835
+[07-02-2016 08:58:51,971] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:207 -  Finished root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,971] DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+[07-02-2016 08:58:51,971] DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+[07-02-2016 08:58:51,971] DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.tutorialspoint.example.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.tutorialspoint.example.Employee, querySpaceUid=<gen:0>, path=com.tutorialspoint.example.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.tutorialspoint.example.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[07-02-2016 08:58:51,971] DEBUG EntityLoader:128 - Static select for entity com.tutorialspoint.example.Employee [PESSIMISTIC_FORCE_INCREMENT]: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=? for update
+[07-02-2016 08:58:51,971] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:171 -  Starting root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,972] DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@10a7baf]
+[07-02-2016 08:58:51,972] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:112 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@417a16
+[07-02-2016 08:58:51,972] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:647 - .. Registering AssociationKey : AssociationKey(table=EMPLOYEE, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@417a16
+[07-02-2016 08:58:51,972] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:238 - >> Starting entity identifier : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,972] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : firstName
+[07-02-2016 08:58:51,972] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,972] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,972] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lastName
+[07-02-2016 08:58:51,972] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,973] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,973] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : salary
+[07-02-2016 08:58:51,973] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,973] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,973] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:119 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@417a16
+[07-02-2016 08:58:51,973] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:207 -  Finished root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,973] DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+[07-02-2016 08:58:51,973] DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+[07-02-2016 08:58:51,974] DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.tutorialspoint.example.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.tutorialspoint.example.Employee, querySpaceUid=<gen:0>, path=com.tutorialspoint.example.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.tutorialspoint.example.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[07-02-2016 08:58:51,974] DEBUG EntityLoader:128 - Static select for entity com.tutorialspoint.example.Employee [OPTIMISTIC]: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=?
+[07-02-2016 08:58:51,974] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:171 -  Starting root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,974] DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@12057e6]
+[07-02-2016 08:58:51,974] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:112 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@be6ca7
+[07-02-2016 08:58:51,974] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:647 - .. Registering AssociationKey : AssociationKey(table=EMPLOYEE, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@be6ca7
+[07-02-2016 08:58:51,974] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:238 - >> Starting entity identifier : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,974] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : firstName
+[07-02-2016 08:58:51,975] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,975] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=firstName, type=string [non-identifier])
+[07-02-2016 08:58:51,975] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lastName
+[07-02-2016 08:58:51,975] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,975] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=lastName, type=string [non-identifier])
+[07-02-2016 08:58:51,975] DEBUG MetamodelGraphWalker:137 - Visiting attribute path : salary
+[07-02-2016 08:58:51,975] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:546 - >> Starting attribute Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,975] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:627 - << Finishing up attribute : Attribute(name=salary, type=integer [non-identifier])
+[07-02-2016 08:58:51,975] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:119 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@be6ca7
+[07-02-2016 08:58:51,976] TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:207 -  Finished root entity : com.tutorialspoint.example.Employee
+[07-02-2016 08:58:51,976] DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+[07-02-2016 08:58:51,976] DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+[07-02-2016 08:58:51,976] DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=com.tutorialspoint.example.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.tutorialspoint.example.Employee, querySpaceUid=<gen:0>, path=com.tutorialspoint.example.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.tutorialspoint.example.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[07-02-2016 08:58:51,976] DEBUG EntityLoader:128 - Static select for entity com.tutorialspoint.example.Employee [OPTIMISTIC_FORCE_INCREMENT]: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=?
+[07-02-2016 08:58:51,989] DEBUG Loader:38 - Static select for action ACTION_MERGE on entity com.tutorialspoint.example.Employee: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=?
+[07-02-2016 08:58:51,989] DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity com.tutorialspoint.example.Employee: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=?
+[07-02-2016 08:58:51,989] DEBUG SessionFactoryImpl:451 - Instantiated session factory
+[07-02-2016 08:58:51,990] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform]
+[07-02-2016 08:58:51,990] DEBUG JtaPlatformInitiator:42 - No JtaPlatform was specified, checking resolver
+[07-02-2016 08:58:51,991] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatformResolver]
+[07-02-2016 08:58:51,991] DEBUG JtaPlatformResolverInitiator:33 - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[07-02-2016 08:58:51,993] DEBUG StandardJtaPlatformResolver:101 - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[07-02-2016 08:58:51,994] DEBUG NamedQueryRepository:149 - Checking 0 named HQL queries
+[07-02-2016 08:58:51,994] DEBUG NamedQueryRepository:165 - Checking 0 named SQL queries
+[07-02-2016 08:58:51,995] DEBUG SessionFactoryRegistry:52 - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@1f587ef
+[07-02-2016 08:58:51,995] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.engine.jndi.spi.JndiService]
+[07-02-2016 08:58:51,997] DEBUG SessionFactoryRegistry:74 - Registering SessionFactory: 3e829e6a-235b-4864-86ca-78e279751595 (<unnamed>)
+[07-02-2016 08:58:51,997] DEBUG SessionFactoryRegistry:81 - Not binding SessionFactory to JNDI, no JNDI name configured
+[07-02-2016 08:58:51,998] TRACE SessionFactoryImpl$SessionBuilderImpl:1317 - Opening Hibernate Session.  tenant=null, owner=null
+[07-02-2016 08:58:52,020] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.stat.spi.StatisticsImplementor]
+[07-02-2016 08:58:52,020] DEBUG StatisticsInitiator:82 - Statistics initialized [enabled=false]
+[07-02-2016 08:58:52,037] TRACE SessionImpl:219 - Opened session at timestamp: 14548319320
+[07-02-2016 08:58:52,037] DEBUG TransactionImpl:51 - begin
+[07-02-2016 08:58:52,038] TRACE AbstractLogicalConnectionImplementor:66 - Preparing to begin transaction via JDBC Connection.setAutoCommit(false)
+[07-02-2016 08:58:52,038] TRACE AbstractLogicalConnectionImplementor:69 - Transaction begun via JDBC Connection.setAutoCommit(false)
+[07-02-2016 08:58:52,038] TRACE JdbcResourceLocalTransactionCoordinatorImpl:141 - ResourceLocalTransactionCoordinatorImpl#afterBeginCallback
+[07-02-2016 08:58:52,040] TRACE DefaultSaveOrUpdateEventListener:163 - Saving transient instance
+[07-02-2016 08:58:52,042] TRACE AbstractSaveEventListener:153 - Saving [com.tutorialspoint.example.Employee#<null>]
+[07-02-2016 08:58:52,048] TRACE ActionQueue:255 - Adding an EntityIdentityInsertAction for [com.tutorialspoint.example.Employee] object
+[07-02-2016 08:58:52,048] TRACE ActionQueue:207 - Executing inserts before finding non-nullable transient entities for early insert: [EntityIdentityInsertAction[com.tutorialspoint.example.Employee#<null>]]
+[07-02-2016 08:58:52,049] TRACE ActionQueue:212 - Adding insert with no non-nullable, transient entities: [EntityIdentityInsertAction[com.tutorialspoint.example.Employee#<null>]]
+[07-02-2016 08:58:52,049] TRACE ActionQueue:229 - Executing insertions before resolved early-insert
+[07-02-2016 08:58:52,049] DEBUG ActionQueue:231 - Executing identity-insert immediately
+[07-02-2016 08:58:52,050] TRACE AbstractEntityPersister:2776 - Inserting entity: com.tutorialspoint.example.Employee (native id)
+[07-02-2016 08:58:52,053] DEBUG SQL:92 - insert into EMPLOYEE (first_name, last_name, salary) values (?, ?, ?)
+[07-02-2016 08:58:52,067] TRACE ResourceRegistryStandardImpl:55 - Registering statement [com.mysql.jdbc.JDBC42PreparedStatement@49dadf: insert into EMPLOYEE (first_name, last_name, salary) values (** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **)]
+[07-02-2016 08:58:52,067] TRACE AbstractEntityPersister:2592 - Dehydrating entity: [com.tutorialspoint.example.Employee#<null>]
+[07-02-2016 08:58:52,069] TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Zara]
+[07-02-2016 08:58:52,069] TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Ali]
+[07-02-2016 08:58:52,070] TRACE BasicBinder:64 - binding parameter [3] as [INTEGER] - [1000]
+[07-02-2016 08:58:52,074] DEBUG IdentifierGeneratorHelper:74 - Natively generated identity: 1
+[07-02-2016 08:58:52,074] TRACE ResourceRegistryStandardImpl:91 - Releasing result set [com.mysql.jdbc.JDBC42ResultSet@2c57b3]
+[07-02-2016 08:58:52,074] DEBUG ResourceRegistryStandardImpl:104 - HHH000387: ResultSet's statement was not registered
+[07-02-2016 08:58:52,074] TRACE ResourceRegistryStandardImpl:132 - Closing result set [com.mysql.jdbc.JDBC42ResultSet@2c57b3]
+[07-02-2016 08:58:52,074] TRACE ResourceRegistryStandardImpl:68 - Releasing statement [com.mysql.jdbc.JDBC42PreparedStatement@49dadf: insert into EMPLOYEE (first_name, last_name, salary) values ('Zara', 'Ali', 1000)]
+[07-02-2016 08:58:52,075] TRACE ResourceRegistryStandardImpl:148 - Closing prepared statement [com.mysql.jdbc.JDBC42PreparedStatement@49dadf: insert into EMPLOYEE (first_name, last_name, salary) values ('Zara', 'Ali', 1000)]
+[07-02-2016 08:58:52,075] TRACE JdbcCoordinatorImpl:271 - Starting after statement execution processing [ON_CLOSE]
+[07-02-2016 08:58:52,076] DEBUG TransactionImpl:62 - committing
+[07-02-2016 08:58:52,077] TRACE JdbcResourceLocalTransactionCoordinatorImpl:145 - ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+[07-02-2016 08:58:52,077] TRACE SessionImpl:2338 - SessionImpl#beforeTransactionCompletion()
+[07-02-2016 08:58:52,077] TRACE SessionImpl:464 - Automatically flushing session
+[07-02-2016 08:58:52,077] TRACE AbstractFlushingEventListener:67 - Flushing session
+[07-02-2016 08:58:52,077] DEBUG AbstractFlushingEventListener:132 - Processing flush-time cascades
+[07-02-2016 08:58:52,078] DEBUG AbstractFlushingEventListener:174 - Dirty checking collections
+[07-02-2016 08:58:52,078] TRACE AbstractFlushingEventListener:189 - Flushing entities and processing referenced collections
+[07-02-2016 08:58:52,079] TRACE AbstractFlushingEventListener:232 - Processing unreferenced collections
+[07-02-2016 08:58:52,079] TRACE AbstractFlushingEventListener:249 - Scheduling collection removes/(re)creates/updates
+[07-02-2016 08:58:52,080] DEBUG AbstractFlushingEventListener:106 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[07-02-2016 08:58:52,080] DEBUG AbstractFlushingEventListener:113 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[07-02-2016 08:58:52,080] DEBUG EntityPrinter:102 - Listing entities:
+[07-02-2016 08:58:52,081] DEBUG EntityPrinter:109 - com.tutorialspoint.example.Employee{firstName=Zara, lastName=Ali, id=1, salary=1000}
+[07-02-2016 08:58:52,081] TRACE AbstractFlushingEventListener:325 - Executing flush
+[07-02-2016 08:58:52,081] TRACE JdbcCoordinatorImpl:271 - Starting after statement execution processing [ON_CLOSE]
+[07-02-2016 08:58:52,081] TRACE AbstractFlushingEventListener:357 - Post flush
+[07-02-2016 08:58:52,082] TRACE SynchronizationRegistryStandardImpl:55 - SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+[07-02-2016 08:58:52,082] TRACE AbstractLogicalConnectionImplementor:79 - Preparing to commit transaction via JDBC Connection.commit()
+[07-02-2016 08:58:52,158] TRACE AbstractLogicalConnectionImplementor:82 - Transaction committed via JDBC Connection.commit()
+[07-02-2016 08:58:52,158] TRACE AbstractLogicalConnectionImplementor:54 - LogicalConnection#afterTransaction
+[07-02-2016 08:58:52,158] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,159] TRACE JdbcResourceLocalTransactionCoordinatorImpl:163 - ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+[07-02-2016 08:58:52,159] TRACE SynchronizationRegistryStandardImpl:159 - SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+[07-02-2016 08:58:52,160] TRACE SessionImpl:2351 - SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+[07-02-2016 08:58:52,161] TRACE SessionImpl:409 - Closing session
+[07-02-2016 08:58:52,161] TRACE JdbcCoordinatorImpl:187 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@451c9c]
+[07-02-2016 08:58:52,162] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,162] TRACE LogicalConnectionManagedImpl:213 - Closing logical connection
+[07-02-2016 08:58:52,164] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,164] TRACE LogicalConnectionManagedImpl:220 - Logical connection closed
+[07-02-2016 08:58:52,170] TRACE SessionFactoryImpl$SessionBuilderImpl:1317 - Opening Hibernate Session.  tenant=null, owner=null
+[07-02-2016 08:58:52,170] TRACE SessionImpl:219 - Opened session at timestamp: 14548319321
+[07-02-2016 08:58:52,171] DEBUG TransactionImpl:51 - begin
+[07-02-2016 08:58:52,172] TRACE AbstractLogicalConnectionImplementor:66 - Preparing to begin transaction via JDBC Connection.setAutoCommit(false)
+[07-02-2016 08:58:52,173] TRACE AbstractLogicalConnectionImplementor:69 - Transaction begun via JDBC Connection.setAutoCommit(false)
+[07-02-2016 08:58:52,174] TRACE JdbcResourceLocalTransactionCoordinatorImpl:141 - ResourceLocalTransactionCoordinatorImpl#afterBeginCallback
+[07-02-2016 08:58:52,174] TRACE DefaultSaveOrUpdateEventListener:163 - Saving transient instance
+[07-02-2016 08:58:52,175] TRACE AbstractSaveEventListener:153 - Saving [com.tutorialspoint.example.Employee#<null>]
+[07-02-2016 08:58:52,175] TRACE ActionQueue:255 - Adding an EntityIdentityInsertAction for [com.tutorialspoint.example.Employee] object
+[07-02-2016 08:58:52,176] TRACE ActionQueue:207 - Executing inserts before finding non-nullable transient entities for early insert: [EntityIdentityInsertAction[com.tutorialspoint.example.Employee#<null>]]
+[07-02-2016 08:58:52,176] TRACE ActionQueue:212 - Adding insert with no non-nullable, transient entities: [EntityIdentityInsertAction[com.tutorialspoint.example.Employee#<null>]]
+[07-02-2016 08:58:52,176] TRACE ActionQueue:229 - Executing insertions before resolved early-insert
+[07-02-2016 08:58:52,176] DEBUG ActionQueue:231 - Executing identity-insert immediately
+[07-02-2016 08:58:52,177] TRACE AbstractEntityPersister:2776 - Inserting entity: com.tutorialspoint.example.Employee (native id)
+[07-02-2016 08:58:52,177] DEBUG SQL:92 - insert into EMPLOYEE (first_name, last_name, salary) values (?, ?, ?)
+[07-02-2016 08:58:52,179] TRACE ResourceRegistryStandardImpl:55 - Registering statement [com.mysql.jdbc.JDBC42PreparedStatement@41709a: insert into EMPLOYEE (first_name, last_name, salary) values (** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **)]
+[07-02-2016 08:58:52,180] TRACE AbstractEntityPersister:2592 - Dehydrating entity: [com.tutorialspoint.example.Employee#<null>]
+[07-02-2016 08:58:52,181] TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Daisy]
+[07-02-2016 08:58:52,181] TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Das]
+[07-02-2016 08:58:52,182] TRACE BasicBinder:64 - binding parameter [3] as [INTEGER] - [5000]
+[07-02-2016 08:58:52,184] DEBUG IdentifierGeneratorHelper:74 - Natively generated identity: 2
+[07-02-2016 08:58:52,185] TRACE ResourceRegistryStandardImpl:91 - Releasing result set [com.mysql.jdbc.JDBC42ResultSet@1b0565c]
+[07-02-2016 08:58:52,185] DEBUG ResourceRegistryStandardImpl:104 - HHH000387: ResultSet's statement was not registered
+[07-02-2016 08:58:52,186] TRACE ResourceRegistryStandardImpl:132 - Closing result set [com.mysql.jdbc.JDBC42ResultSet@1b0565c]
+[07-02-2016 08:58:52,187] TRACE ResourceRegistryStandardImpl:68 - Releasing statement [com.mysql.jdbc.JDBC42PreparedStatement@41709a: insert into EMPLOYEE (first_name, last_name, salary) values ('Daisy', 'Das', 5000)]
+[07-02-2016 08:58:52,188] TRACE ResourceRegistryStandardImpl:148 - Closing prepared statement [com.mysql.jdbc.JDBC42PreparedStatement@41709a: insert into EMPLOYEE (first_name, last_name, salary) values ('Daisy', 'Das', 5000)]
+[07-02-2016 08:58:52,188] TRACE JdbcCoordinatorImpl:271 - Starting after statement execution processing [ON_CLOSE]
+[07-02-2016 08:58:52,189] DEBUG TransactionImpl:62 - committing
+[07-02-2016 08:58:52,189] TRACE JdbcResourceLocalTransactionCoordinatorImpl:145 - ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+[07-02-2016 08:58:52,190] TRACE SessionImpl:2338 - SessionImpl#beforeTransactionCompletion()
+[07-02-2016 08:58:52,190] TRACE SessionImpl:464 - Automatically flushing session
+[07-02-2016 08:58:52,191] TRACE AbstractFlushingEventListener:67 - Flushing session
+[07-02-2016 08:58:52,191] DEBUG AbstractFlushingEventListener:132 - Processing flush-time cascades
+[07-02-2016 08:58:52,192] DEBUG AbstractFlushingEventListener:174 - Dirty checking collections
+[07-02-2016 08:58:52,192] TRACE AbstractFlushingEventListener:189 - Flushing entities and processing referenced collections
+[07-02-2016 08:58:52,193] TRACE AbstractFlushingEventListener:232 - Processing unreferenced collections
+[07-02-2016 08:58:52,193] TRACE AbstractFlushingEventListener:249 - Scheduling collection removes/(re)creates/updates
+[07-02-2016 08:58:52,194] DEBUG AbstractFlushingEventListener:106 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[07-02-2016 08:58:52,194] DEBUG AbstractFlushingEventListener:113 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[07-02-2016 08:58:52,195] DEBUG EntityPrinter:102 - Listing entities:
+[07-02-2016 08:58:52,195] DEBUG EntityPrinter:109 - com.tutorialspoint.example.Employee{firstName=Daisy, lastName=Das, id=2, salary=5000}
+[07-02-2016 08:58:52,195] TRACE AbstractFlushingEventListener:325 - Executing flush
+[07-02-2016 08:58:52,196] TRACE JdbcCoordinatorImpl:271 - Starting after statement execution processing [ON_CLOSE]
+[07-02-2016 08:58:52,196] TRACE AbstractFlushingEventListener:357 - Post flush
+[07-02-2016 08:58:52,196] TRACE SynchronizationRegistryStandardImpl:55 - SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+[07-02-2016 08:58:52,197] TRACE AbstractLogicalConnectionImplementor:79 - Preparing to commit transaction via JDBC Connection.commit()
+[07-02-2016 08:58:52,242] TRACE AbstractLogicalConnectionImplementor:82 - Transaction committed via JDBC Connection.commit()
+[07-02-2016 08:58:52,243] TRACE AbstractLogicalConnectionImplementor:54 - LogicalConnection#afterTransaction
+[07-02-2016 08:58:52,243] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,243] TRACE JdbcResourceLocalTransactionCoordinatorImpl:163 - ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+[07-02-2016 08:58:52,243] TRACE SynchronizationRegistryStandardImpl:159 - SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+[07-02-2016 08:58:52,243] TRACE SessionImpl:2351 - SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+[07-02-2016 08:58:52,243] TRACE SessionImpl:409 - Closing session
+[07-02-2016 08:58:52,243] TRACE JdbcCoordinatorImpl:187 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@eacb4b]
+[07-02-2016 08:58:52,243] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,243] TRACE LogicalConnectionManagedImpl:213 - Closing logical connection
+[07-02-2016 08:58:52,244] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,244] TRACE LogicalConnectionManagedImpl:220 - Logical connection closed
+[07-02-2016 08:58:52,244] TRACE SessionFactoryImpl$SessionBuilderImpl:1317 - Opening Hibernate Session.  tenant=null, owner=null
+[07-02-2016 08:58:52,244] TRACE SessionImpl:219 - Opened session at timestamp: 14548319322
+[07-02-2016 08:58:52,244] DEBUG TransactionImpl:51 - begin
+[07-02-2016 08:58:52,245] TRACE AbstractLogicalConnectionImplementor:66 - Preparing to begin transaction via JDBC Connection.setAutoCommit(false)
+[07-02-2016 08:58:52,245] TRACE AbstractLogicalConnectionImplementor:69 - Transaction begun via JDBC Connection.setAutoCommit(false)
+[07-02-2016 08:58:52,245] TRACE JdbcResourceLocalTransactionCoordinatorImpl:141 - ResourceLocalTransactionCoordinatorImpl#afterBeginCallback
+[07-02-2016 08:58:52,246] TRACE DefaultSaveOrUpdateEventListener:163 - Saving transient instance
+[07-02-2016 08:58:52,246] TRACE AbstractSaveEventListener:153 - Saving [com.tutorialspoint.example.Employee#<null>]
+[07-02-2016 08:58:52,246] TRACE ActionQueue:255 - Adding an EntityIdentityInsertAction for [com.tutorialspoint.example.Employee] object
+[07-02-2016 08:58:52,246] TRACE ActionQueue:207 - Executing inserts before finding non-nullable transient entities for early insert: [EntityIdentityInsertAction[com.tutorialspoint.example.Employee#<null>]]
+[07-02-2016 08:58:52,246] TRACE ActionQueue:212 - Adding insert with no non-nullable, transient entities: [EntityIdentityInsertAction[com.tutorialspoint.example.Employee#<null>]]
+[07-02-2016 08:58:52,246] TRACE ActionQueue:229 - Executing insertions before resolved early-insert
+[07-02-2016 08:58:52,246] DEBUG ActionQueue:231 - Executing identity-insert immediately
+[07-02-2016 08:58:52,246] TRACE AbstractEntityPersister:2776 - Inserting entity: com.tutorialspoint.example.Employee (native id)
+[07-02-2016 08:58:52,246] DEBUG SQL:92 - insert into EMPLOYEE (first_name, last_name, salary) values (?, ?, ?)
+[07-02-2016 08:58:52,247] TRACE ResourceRegistryStandardImpl:55 - Registering statement [com.mysql.jdbc.JDBC42PreparedStatement@6f5124: insert into EMPLOYEE (first_name, last_name, salary) values (** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **)]
+[07-02-2016 08:58:52,247] TRACE AbstractEntityPersister:2592 - Dehydrating entity: [com.tutorialspoint.example.Employee#<null>]
+[07-02-2016 08:58:52,247] TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [John]
+[07-02-2016 08:58:52,247] TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Paul]
+[07-02-2016 08:58:52,247] TRACE BasicBinder:64 - binding parameter [3] as [INTEGER] - [10000]
+[07-02-2016 08:58:52,248] DEBUG IdentifierGeneratorHelper:74 - Natively generated identity: 3
+[07-02-2016 08:58:52,248] TRACE ResourceRegistryStandardImpl:91 - Releasing result set [com.mysql.jdbc.JDBC42ResultSet@db61b1]
+[07-02-2016 08:58:52,248] DEBUG ResourceRegistryStandardImpl:104 - HHH000387: ResultSet's statement was not registered
+[07-02-2016 08:58:52,248] TRACE ResourceRegistryStandardImpl:132 - Closing result set [com.mysql.jdbc.JDBC42ResultSet@db61b1]
+[07-02-2016 08:58:52,249] TRACE ResourceRegistryStandardImpl:68 - Releasing statement [com.mysql.jdbc.JDBC42PreparedStatement@6f5124: insert into EMPLOYEE (first_name, last_name, salary) values ('John', 'Paul', 10000)]
+[07-02-2016 08:58:52,249] TRACE ResourceRegistryStandardImpl:148 - Closing prepared statement [com.mysql.jdbc.JDBC42PreparedStatement@6f5124: insert into EMPLOYEE (first_name, last_name, salary) values ('John', 'Paul', 10000)]
+[07-02-2016 08:58:52,249] TRACE JdbcCoordinatorImpl:271 - Starting after statement execution processing [ON_CLOSE]
+[07-02-2016 08:58:52,249] DEBUG TransactionImpl:62 - committing
+[07-02-2016 08:58:52,249] TRACE JdbcResourceLocalTransactionCoordinatorImpl:145 - ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+[07-02-2016 08:58:52,249] TRACE SessionImpl:2338 - SessionImpl#beforeTransactionCompletion()
+[07-02-2016 08:58:52,249] TRACE SessionImpl:464 - Automatically flushing session
+[07-02-2016 08:58:52,249] TRACE AbstractFlushingEventListener:67 - Flushing session
+[07-02-2016 08:58:52,249] DEBUG AbstractFlushingEventListener:132 - Processing flush-time cascades
+[07-02-2016 08:58:52,249] DEBUG AbstractFlushingEventListener:174 - Dirty checking collections
+[07-02-2016 08:58:52,250] TRACE AbstractFlushingEventListener:189 - Flushing entities and processing referenced collections
+[07-02-2016 08:58:52,250] TRACE AbstractFlushingEventListener:232 - Processing unreferenced collections
+[07-02-2016 08:58:52,250] TRACE AbstractFlushingEventListener:249 - Scheduling collection removes/(re)creates/updates
+[07-02-2016 08:58:52,250] DEBUG AbstractFlushingEventListener:106 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[07-02-2016 08:58:52,250] DEBUG AbstractFlushingEventListener:113 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[07-02-2016 08:58:52,250] DEBUG EntityPrinter:102 - Listing entities:
+[07-02-2016 08:58:52,250] DEBUG EntityPrinter:109 - com.tutorialspoint.example.Employee{firstName=John, lastName=Paul, id=3, salary=10000}
+[07-02-2016 08:58:52,250] TRACE AbstractFlushingEventListener:325 - Executing flush
+[07-02-2016 08:58:52,250] TRACE JdbcCoordinatorImpl:271 - Starting after statement execution processing [ON_CLOSE]
+[07-02-2016 08:58:52,250] TRACE AbstractFlushingEventListener:357 - Post flush
+[07-02-2016 08:58:52,251] TRACE SynchronizationRegistryStandardImpl:55 - SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+[07-02-2016 08:58:52,251] TRACE AbstractLogicalConnectionImplementor:79 - Preparing to commit transaction via JDBC Connection.commit()
+[07-02-2016 08:58:52,301] TRACE AbstractLogicalConnectionImplementor:82 - Transaction committed via JDBC Connection.commit()
+[07-02-2016 08:58:52,301] TRACE AbstractLogicalConnectionImplementor:54 - LogicalConnection#afterTransaction
+[07-02-2016 08:58:52,301] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,301] TRACE JdbcResourceLocalTransactionCoordinatorImpl:163 - ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+[07-02-2016 08:58:52,301] TRACE SynchronizationRegistryStandardImpl:159 - SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+[07-02-2016 08:58:52,302] TRACE SessionImpl:2351 - SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+[07-02-2016 08:58:52,302] TRACE SessionImpl:409 - Closing session
+[07-02-2016 08:58:52,302] TRACE JdbcCoordinatorImpl:187 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@c62a3b]
+[07-02-2016 08:58:52,302] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,302] TRACE LogicalConnectionManagedImpl:213 - Closing logical connection
+[07-02-2016 08:58:52,302] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,302] TRACE LogicalConnectionManagedImpl:220 - Logical connection closed
+[07-02-2016 08:58:52,303] TRACE SessionFactoryImpl$SessionBuilderImpl:1317 - Opening Hibernate Session.  tenant=null, owner=null
+[07-02-2016 08:58:52,303] TRACE SessionImpl:219 - Opened session at timestamp: 14548319323
+[07-02-2016 08:58:52,303] DEBUG TransactionImpl:51 - begin
+[07-02-2016 08:58:52,303] TRACE AbstractLogicalConnectionImplementor:66 - Preparing to begin transaction via JDBC Connection.setAutoCommit(false)
+[07-02-2016 08:58:52,303] TRACE AbstractLogicalConnectionImplementor:69 - Transaction begun via JDBC Connection.setAutoCommit(false)
+[07-02-2016 08:58:52,304] TRACE JdbcResourceLocalTransactionCoordinatorImpl:141 - ResourceLocalTransactionCoordinatorImpl#afterBeginCallback
+[07-02-2016 08:58:52,307] TRACE QueryPlanCache:149 - Unable to locate HQL query plan in cache; generating (FROM Employee)
+[07-02-2016 08:58:52,310] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.hql.spi.QueryTranslatorFactory]
+[07-02-2016 08:58:52,311] DEBUG QueryTranslatorFactoryInitiator:45 - QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@680f52
+[07-02-2016 08:58:52,311] INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+[07-02-2016 08:58:52,335] DEBUG QueryTranslatorImpl:278 - parse() - HQL: FROM com.tutorialspoint.example.Employee
+[07-02-2016 08:58:52,341] DEBUG QueryTranslatorImpl:296 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       \-[FROM] Node: 'FROM'
+          \-[RANGE] Node: 'RANGE'
+             \-[DOT] Node: '.'
+                +-[DOT] Node: '.'
+                |  +-[DOT] Node: '.'
+                |  |  +-[IDENT] Node: 'com'
+                |  |  \-[IDENT] Node: 'tutorialspoint'
+                |  \-[IDENT] Node: 'example'
+                \-[IDENT] Node: 'Employee'
+
+[07-02-2016 08:58:52,341] DEBUG ErrorCounter:95 - throwQueryException() : no errors
+[07-02-2016 08:58:52,360] DEBUG HqlSqlBaseWalker:124 - select << begin [level=1, statement=select]
+[07-02-2016 08:58:52,371] DEBUG FromElement:146 - FromClause{level=1} : com.tutorialspoint.example.Employee (<no alias>) -> employee0_
+[07-02-2016 08:58:52,371] DEBUG HqlSqlBaseWalker:128 - select : finishing up [level=1, statement=select]
+[07-02-2016 08:58:52,371] DEBUG HqlSqlWalker:654 - processQuery() :  ( SELECT ( FromClause{level=1} EMPLOYEE employee0_ ) )
+[07-02-2016 08:58:52,376] DEBUG HqlSqlWalker:930 - Derived SELECT clause created.
+[07-02-2016 08:58:52,379] DEBUG JoinProcessor:169 - Using FROM fragment [EMPLOYEE employee0_]
+[07-02-2016 08:58:52,379] DEBUG HqlSqlBaseWalker:132 - select >> end [level=1, statement=select]
+[07-02-2016 08:58:52,380] DEBUG QueryTranslatorImpl:265 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (EMPLOYEE)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'employee0_.id as id1_0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=EMPLOYEE,tableAlias=employee0_,origin=null,columns={,className=com.tutorialspoint.example.Employee}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'employee0_.first_name as first_na2_0_, employee0_.last_name as last_nam3_0_, employee0_.salary as salary4_0_'
+    \-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[employee0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'EMPLOYEE employee0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=EMPLOYEE,tableAlias=employee0_,origin=null,columns={,className=com.tutorialspoint.example.Employee}}
+
+[07-02-2016 08:58:52,380] DEBUG ErrorCounter:95 - throwQueryException() : no errors
+[07-02-2016 08:58:52,386] DEBUG QueryTranslatorImpl:247 - HQL: FROM com.tutorialspoint.example.Employee
+[07-02-2016 08:58:52,386] DEBUG QueryTranslatorImpl:248 - SQL: select employee0_.id as id1_0_, employee0_.first_name as first_na2_0_, employee0_.last_name as last_nam3_0_, employee0_.salary as salary4_0_ from EMPLOYEE employee0_
+[07-02-2016 08:58:52,386] DEBUG ErrorCounter:95 - throwQueryException() : no errors
+[07-02-2016 08:58:52,389] TRACE HQLQueryPlan:385 - HQL param location recognition took 875 642 nanoseconds (FROM Employee)
+[07-02-2016 08:58:52,392] TRACE QueryPlanCache:154 - Located HQL query plan in cache (FROM Employee)
+[07-02-2016 08:58:52,392] TRACE HQLQueryPlan:193 - Find: FROM Employee
+[07-02-2016 08:58:52,392] TRACE QueryParameters:285 - Named parameters: {}
+[07-02-2016 08:58:52,394] DEBUG SQL:92 - select employee0_.id as id1_0_, employee0_.first_name as first_na2_0_, employee0_.last_name as last_nam3_0_, employee0_.salary as salary4_0_ from EMPLOYEE employee0_
+[07-02-2016 08:58:52,394] TRACE ResourceRegistryStandardImpl:55 - Registering statement [com.mysql.jdbc.JDBC42PreparedStatement@1f0ad19: select employee0_.id as id1_0_, employee0_.first_name as first_na2_0_, employee0_.last_name as last_nam3_0_, employee0_.salary as salary4_0_ from EMPLOYEE employee0_]
+[07-02-2016 08:58:52,394] TRACE JdbcCoordinatorImpl:351 - Registering last query statement [com.mysql.jdbc.JDBC42PreparedStatement@1f0ad19: select employee0_.id as id1_0_, employee0_.first_name as first_na2_0_, employee0_.last_name as last_nam3_0_, employee0_.salary as salary4_0_ from EMPLOYEE employee0_]
+[07-02-2016 08:58:52,395] TRACE Loader:1978 - Bound [1] parameters total
+[07-02-2016 08:58:52,396] TRACE ResourceRegistryStandardImpl:182 - Registering result set [com.mysql.jdbc.JDBC42ResultSet@cf5a23]
+[07-02-2016 08:58:52,396] TRACE Loader:965 - Processing result set
+[07-02-2016 08:58:52,396] DEBUG Loader:384 - Result set row: 0
+[07-02-2016 08:58:52,397] TRACE BasicExtractor:61 - extracted value ([id1_0_] : [INTEGER]) - [1]
+[07-02-2016 08:58:52,397] DEBUG Loader:1514 - Result row: EntityKey[com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,397] TRACE Loader:1700 - Initializing object from ResultSet: [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,398] TRACE AbstractEntityPersister:2657 - Hydrating entity: [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,399] TRACE BasicExtractor:61 - extracted value ([first_na2_0_] : [VARCHAR]) - [Zara]
+[07-02-2016 08:58:52,399] TRACE BasicExtractor:61 - extracted value ([last_nam3_0_] : [VARCHAR]) - [Ali]
+[07-02-2016 08:58:52,399] TRACE BasicExtractor:61 - extracted value ([salary4_0_] : [INTEGER]) - [1000]
+[07-02-2016 08:58:52,399] DEBUG Loader:384 - Result set row: 1
+[07-02-2016 08:58:52,400] TRACE BasicExtractor:61 - extracted value ([id1_0_] : [INTEGER]) - [2]
+[07-02-2016 08:58:52,400] DEBUG Loader:1514 - Result row: EntityKey[com.tutorialspoint.example.Employee#2]
+[07-02-2016 08:58:52,400] TRACE Loader:1700 - Initializing object from ResultSet: [com.tutorialspoint.example.Employee#2]
+[07-02-2016 08:58:52,400] TRACE AbstractEntityPersister:2657 - Hydrating entity: [com.tutorialspoint.example.Employee#2]
+[07-02-2016 08:58:52,400] TRACE BasicExtractor:61 - extracted value ([first_na2_0_] : [VARCHAR]) - [Daisy]
+[07-02-2016 08:58:52,400] TRACE BasicExtractor:61 - extracted value ([last_nam3_0_] : [VARCHAR]) - [Das]
+[07-02-2016 08:58:52,400] TRACE BasicExtractor:61 - extracted value ([salary4_0_] : [INTEGER]) - [5000]
+[07-02-2016 08:58:52,400] DEBUG Loader:384 - Result set row: 2
+[07-02-2016 08:58:52,400] TRACE BasicExtractor:61 - extracted value ([id1_0_] : [INTEGER]) - [3]
+[07-02-2016 08:58:52,401] DEBUG Loader:1514 - Result row: EntityKey[com.tutorialspoint.example.Employee#3]
+[07-02-2016 08:58:52,401] TRACE Loader:1700 - Initializing object from ResultSet: [com.tutorialspoint.example.Employee#3]
+[07-02-2016 08:58:52,401] TRACE AbstractEntityPersister:2657 - Hydrating entity: [com.tutorialspoint.example.Employee#3]
+[07-02-2016 08:58:52,401] TRACE BasicExtractor:61 - extracted value ([first_na2_0_] : [VARCHAR]) - [John]
+[07-02-2016 08:58:52,401] TRACE BasicExtractor:61 - extracted value ([last_nam3_0_] : [VARCHAR]) - [Paul]
+[07-02-2016 08:58:52,401] TRACE BasicExtractor:61 - extracted value ([salary4_0_] : [INTEGER]) - [10000]
+[07-02-2016 08:58:52,401] TRACE Loader:990 - Done processing result set (3 rows)
+[07-02-2016 08:58:52,402] TRACE Loader:1130 - Total objects hydrated: 3
+[07-02-2016 08:58:52,402] DEBUG TwoPhaseLoad:144 - Resolving associations for [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,403] DEBUG TwoPhaseLoad:274 - Done materializing entity [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,403] DEBUG TwoPhaseLoad:144 - Resolving associations for [com.tutorialspoint.example.Employee#2]
+[07-02-2016 08:58:52,403] DEBUG TwoPhaseLoad:274 - Done materializing entity [com.tutorialspoint.example.Employee#2]
+[07-02-2016 08:58:52,403] DEBUG TwoPhaseLoad:144 - Resolving associations for [com.tutorialspoint.example.Employee#3]
+[07-02-2016 08:58:52,403] DEBUG TwoPhaseLoad:274 - Done materializing entity [com.tutorialspoint.example.Employee#3]
+[07-02-2016 08:58:52,403] TRACE ResourceRegistryStandardImpl:68 - Releasing statement [com.mysql.jdbc.JDBC42PreparedStatement@1f0ad19: select employee0_.id as id1_0_, employee0_.first_name as first_na2_0_, employee0_.last_name as last_nam3_0_, employee0_.salary as salary4_0_ from EMPLOYEE employee0_]
+[07-02-2016 08:58:52,403] TRACE ResourceRegistryStandardImpl:132 - Closing result set [com.mysql.jdbc.JDBC42ResultSet@cf5a23]
+[07-02-2016 08:58:52,404] TRACE ResourceRegistryStandardImpl:148 - Closing prepared statement [com.mysql.jdbc.JDBC42PreparedStatement@1f0ad19: select employee0_.id as id1_0_, employee0_.first_name as first_na2_0_, employee0_.last_name as last_nam3_0_, employee0_.salary as salary4_0_ from EMPLOYEE employee0_]
+[07-02-2016 08:58:52,404] TRACE JdbcCoordinatorImpl:271 - Starting after statement execution processing [ON_CLOSE]
+[07-02-2016 08:58:52,404] TRACE StatefulPersistenceContext:914 - Initializing non-lazy collections
+[07-02-2016 08:58:52,404] DEBUG TransactionImpl:62 - committing
+[07-02-2016 08:58:52,405] TRACE JdbcResourceLocalTransactionCoordinatorImpl:145 - ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+[07-02-2016 08:58:52,405] TRACE SessionImpl:2338 - SessionImpl#beforeTransactionCompletion()
+[07-02-2016 08:58:52,405] TRACE SessionImpl:464 - Automatically flushing session
+[07-02-2016 08:58:52,405] TRACE AbstractFlushingEventListener:67 - Flushing session
+[07-02-2016 08:58:52,405] DEBUG AbstractFlushingEventListener:132 - Processing flush-time cascades
+[07-02-2016 08:58:52,405] DEBUG AbstractFlushingEventListener:174 - Dirty checking collections
+[07-02-2016 08:58:52,405] TRACE AbstractFlushingEventListener:189 - Flushing entities and processing referenced collections
+[07-02-2016 08:58:52,405] TRACE AbstractFlushingEventListener:232 - Processing unreferenced collections
+[07-02-2016 08:58:52,405] TRACE AbstractFlushingEventListener:249 - Scheduling collection removes/(re)creates/updates
+[07-02-2016 08:58:52,406] DEBUG AbstractFlushingEventListener:106 - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+[07-02-2016 08:58:52,406] DEBUG AbstractFlushingEventListener:113 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[07-02-2016 08:58:52,406] DEBUG EntityPrinter:102 - Listing entities:
+[07-02-2016 08:58:52,406] DEBUG EntityPrinter:109 - com.tutorialspoint.example.Employee{firstName=John, lastName=Paul, id=3, salary=10000}
+[07-02-2016 08:58:52,406] DEBUG EntityPrinter:109 - com.tutorialspoint.example.Employee{firstName=Zara, lastName=Ali, id=1, salary=1000}
+[07-02-2016 08:58:52,406] DEBUG EntityPrinter:109 - com.tutorialspoint.example.Employee{firstName=Daisy, lastName=Das, id=2, salary=5000}
+[07-02-2016 08:58:52,406] TRACE AbstractFlushingEventListener:325 - Executing flush
+[07-02-2016 08:58:52,406] TRACE JdbcCoordinatorImpl:271 - Starting after statement execution processing [ON_CLOSE]
+[07-02-2016 08:58:52,406] TRACE AbstractFlushingEventListener:357 - Post flush
+[07-02-2016 08:58:52,406] TRACE SynchronizationRegistryStandardImpl:55 - SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+[07-02-2016 08:58:52,407] TRACE AbstractLogicalConnectionImplementor:79 - Preparing to commit transaction via JDBC Connection.commit()
+[07-02-2016 08:58:52,407] TRACE AbstractLogicalConnectionImplementor:82 - Transaction committed via JDBC Connection.commit()
+[07-02-2016 08:58:52,407] TRACE AbstractLogicalConnectionImplementor:54 - LogicalConnection#afterTransaction
+[07-02-2016 08:58:52,407] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,407] TRACE JdbcResourceLocalTransactionCoordinatorImpl:163 - ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+[07-02-2016 08:58:52,407] TRACE SynchronizationRegistryStandardImpl:159 - SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+[07-02-2016 08:58:52,407] TRACE SessionImpl:2351 - SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+[07-02-2016 08:58:52,408] TRACE SessionImpl:409 - Closing session
+[07-02-2016 08:58:52,408] TRACE JdbcCoordinatorImpl:187 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@e0d4a8]
+[07-02-2016 08:58:52,408] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,408] TRACE LogicalConnectionManagedImpl:213 - Closing logical connection
+[07-02-2016 08:58:52,408] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,408] TRACE LogicalConnectionManagedImpl:220 - Logical connection closed
+[07-02-2016 08:58:52,408] TRACE SessionFactoryImpl$SessionBuilderImpl:1317 - Opening Hibernate Session.  tenant=null, owner=null
+[07-02-2016 08:58:52,408] TRACE SessionImpl:219 - Opened session at timestamp: 14548319324
+[07-02-2016 08:58:52,409] DEBUG TransactionImpl:51 - begin
+[07-02-2016 08:58:52,409] TRACE AbstractLogicalConnectionImplementor:66 - Preparing to begin transaction via JDBC Connection.setAutoCommit(false)
+[07-02-2016 08:58:52,409] TRACE AbstractLogicalConnectionImplementor:69 - Transaction begun via JDBC Connection.setAutoCommit(false)
+[07-02-2016 08:58:52,409] TRACE JdbcResourceLocalTransactionCoordinatorImpl:141 - ResourceLocalTransactionCoordinatorImpl#afterBeginCallback
+[07-02-2016 08:58:52,411] TRACE DefaultLoadEventListener:254 - Loading entity: [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,411] TRACE DefaultLoadEventListener:435 - Attempting to resolve: [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,412] TRACE DefaultLoadEventListener:473 - Object not resolved in any cache: [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,412] TRACE AbstractEntityPersister:3952 - Fetching entity: [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,412] DEBUG SQL:92 - select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=?
+[07-02-2016 08:58:52,412] TRACE ResourceRegistryStandardImpl:55 - Registering statement [com.mysql.jdbc.JDBC42PreparedStatement@1b732a2: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=** NOT SPECIFIED **]
+[07-02-2016 08:58:52,412] TRACE JdbcCoordinatorImpl:351 - Registering last query statement [com.mysql.jdbc.JDBC42PreparedStatement@1b732a2: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=** NOT SPECIFIED **]
+[07-02-2016 08:58:52,413] TRACE BasicBinder:64 - binding parameter [1] as [INTEGER] - [1]
+[07-02-2016 08:58:52,413] TRACE AbstractLoadPlanBasedLoader:287 - Bound [2] parameters total
+[07-02-2016 08:58:52,414] TRACE ResourceRegistryStandardImpl:182 - Registering result set [com.mysql.jdbc.JDBC42ResultSet@15051a0]
+[07-02-2016 08:58:52,416] TRACE ResultSetProcessorImpl:107 - Processing result set
+[07-02-2016 08:58:52,417] DEBUG ResultSetProcessorImpl:110 - Starting ResultSet row #0
+[07-02-2016 08:58:52,418] DEBUG EntityReferenceInitializerImpl:126 - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[07-02-2016 08:58:52,418] TRACE EntityReferenceInitializerImpl:229 - hydrating entity state
+[07-02-2016 08:58:52,418] TRACE EntityReferenceInitializerImpl:281 - Initializing object from ResultSet: [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,418] TRACE AbstractEntityPersister:2657 - Hydrating entity: [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,419] TRACE BasicExtractor:61 - extracted value ([first_na2_0_0_] : [VARCHAR]) - [Zara]
+[07-02-2016 08:58:52,419] TRACE BasicExtractor:61 - extracted value ([last_nam3_0_0_] : [VARCHAR]) - [Ali]
+[07-02-2016 08:58:52,419] TRACE BasicExtractor:61 - extracted value ([salary4_0_0_] : [INTEGER]) - [1000]
+[07-02-2016 08:58:52,420] TRACE ResultSetProcessorImpl:121 - Done processing result set (1 rows)
+[07-02-2016 08:58:52,420] TRACE AbstractRowReader:231 - Total objects hydrated: 1
+[07-02-2016 08:58:52,420] DEBUG TwoPhaseLoad:144 - Resolving associations for [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,420] DEBUG TwoPhaseLoad:274 - Done materializing entity [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,421] TRACE ResourceRegistryStandardImpl:91 - Releasing result set [com.mysql.jdbc.JDBC42ResultSet@15051a0]
+[07-02-2016 08:58:52,421] TRACE ResourceRegistryStandardImpl:132 - Closing result set [com.mysql.jdbc.JDBC42ResultSet@15051a0]
+[07-02-2016 08:58:52,421] TRACE ResourceRegistryStandardImpl:68 - Releasing statement [com.mysql.jdbc.JDBC42PreparedStatement@1b732a2: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=1]
+[07-02-2016 08:58:52,421] DEBUG ResourceRegistryStandardImpl:73 - HHH000387: ResultSet's statement was not registered
+[07-02-2016 08:58:52,421] TRACE ResourceRegistryStandardImpl:148 - Closing prepared statement [com.mysql.jdbc.JDBC42PreparedStatement@1b732a2: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=1]
+[07-02-2016 08:58:52,421] TRACE JdbcCoordinatorImpl:271 - Starting after statement execution processing [ON_CLOSE]
+[07-02-2016 08:58:52,421] TRACE StatefulPersistenceContext:914 - Initializing non-lazy collections
+[07-02-2016 08:58:52,421] DEBUG AbstractLoadPlanBasedEntityLoader:189 - Done entity load : com.tutorialspoint.example.Employee#1
+[07-02-2016 08:58:52,422] TRACE DefaultSaveOrUpdateEventListener:104 - Ignoring persistent instance
+[07-02-2016 08:58:52,422] TRACE DefaultSaveOrUpdateEventListener:141 - Object already associated with session: [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,422] DEBUG TransactionImpl:62 - committing
+[07-02-2016 08:58:52,422] TRACE JdbcResourceLocalTransactionCoordinatorImpl:145 - ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+[07-02-2016 08:58:52,422] TRACE SessionImpl:2338 - SessionImpl#beforeTransactionCompletion()
+[07-02-2016 08:58:52,422] TRACE SessionImpl:464 - Automatically flushing session
+[07-02-2016 08:58:52,422] TRACE AbstractFlushingEventListener:67 - Flushing session
+[07-02-2016 08:58:52,422] DEBUG AbstractFlushingEventListener:132 - Processing flush-time cascades
+[07-02-2016 08:58:52,422] DEBUG AbstractFlushingEventListener:174 - Dirty checking collections
+[07-02-2016 08:58:52,422] TRACE AbstractFlushingEventListener:189 - Flushing entities and processing referenced collections
+[07-02-2016 08:58:52,423] TRACE AbstractEntityPersister:4143 - com.tutorialspoint.example.Employee.salary is dirty
+[07-02-2016 08:58:52,423] TRACE DefaultFlushEntityEventListener:651 - Found dirty properties [[com.tutorialspoint.example.Employee#1]] : [Ljava.lang.String;@1b1a49c
+[07-02-2016 08:58:52,423] TRACE DefaultFlushEntityEventListener:269 - Updating entity: [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,425] TRACE AbstractFlushingEventListener:232 - Processing unreferenced collections
+[07-02-2016 08:58:52,425] TRACE AbstractFlushingEventListener:249 - Scheduling collection removes/(re)creates/updates
+[07-02-2016 08:58:52,425] DEBUG AbstractFlushingEventListener:106 - Flushed: 0 insertions, 1 updates, 0 deletions to 1 objects
+[07-02-2016 08:58:52,426] DEBUG AbstractFlushingEventListener:113 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[07-02-2016 08:58:52,426] DEBUG EntityPrinter:102 - Listing entities:
+[07-02-2016 08:58:52,426] DEBUG EntityPrinter:109 - com.tutorialspoint.example.Employee{firstName=Zara, lastName=Ali, id=1, salary=5000}
+[07-02-2016 08:58:52,426] TRACE AbstractFlushingEventListener:325 - Executing flush
+[07-02-2016 08:58:52,429] TRACE AbstractEntityPersister:3001 - Updating entity: [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,429] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.engine.jdbc.batch.spi.BatchBuilder]
+[07-02-2016 08:58:52,431] TRACE AbstractServiceRegistryImpl:204 - Initializing service [role=org.hibernate.jmx.spi.JmxService]
+[07-02-2016 08:58:52,432] TRACE BatchBuilderImpl:159 - Building batch [size=1]
+[07-02-2016 08:58:52,432] DEBUG SQL:92 - update EMPLOYEE set first_name=?, last_name=?, salary=? where id=?
+[07-02-2016 08:58:52,433] TRACE ResourceRegistryStandardImpl:55 - Registering statement [com.mysql.jdbc.JDBC42PreparedStatement@9d2b1b: update EMPLOYEE set first_name=** NOT SPECIFIED **, last_name=** NOT SPECIFIED **, salary=** NOT SPECIFIED ** where id=** NOT SPECIFIED **]
+[07-02-2016 08:58:52,433] TRACE AbstractEntityPersister:2592 - Dehydrating entity: [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,433] TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Zara]
+[07-02-2016 08:58:52,433] TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Ali]
+[07-02-2016 08:58:52,433] TRACE BasicBinder:64 - binding parameter [3] as [INTEGER] - [5000]
+[07-02-2016 08:58:52,433] TRACE BasicBinder:64 - binding parameter [4] as [INTEGER] - [1]
+[07-02-2016 08:58:52,434] TRACE ResourceRegistryStandardImpl:68 - Releasing statement [com.mysql.jdbc.JDBC42PreparedStatement@9d2b1b: update EMPLOYEE set first_name='Zara', last_name='Ali', salary=5000 where id=1]
+[07-02-2016 08:58:52,434] TRACE ResourceRegistryStandardImpl:148 - Closing prepared statement [com.mysql.jdbc.JDBC42PreparedStatement@9d2b1b: update EMPLOYEE set first_name='Zara', last_name='Ali', salary=5000 where id=1]
+[07-02-2016 08:58:52,435] TRACE JdbcCoordinatorImpl:271 - Starting after statement execution processing [ON_CLOSE]
+[07-02-2016 08:58:52,435] TRACE JdbcCoordinatorImpl:271 - Starting after statement execution processing [ON_CLOSE]
+[07-02-2016 08:58:52,435] TRACE AbstractFlushingEventListener:357 - Post flush
+[07-02-2016 08:58:52,435] TRACE SynchronizationRegistryStandardImpl:55 - SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+[07-02-2016 08:58:52,435] TRACE AbstractLogicalConnectionImplementor:79 - Preparing to commit transaction via JDBC Connection.commit()
+[07-02-2016 08:58:52,464] TRACE AbstractLogicalConnectionImplementor:82 - Transaction committed via JDBC Connection.commit()
+[07-02-2016 08:58:52,464] TRACE AbstractLogicalConnectionImplementor:54 - LogicalConnection#afterTransaction
+[07-02-2016 08:58:52,465] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,465] TRACE JdbcResourceLocalTransactionCoordinatorImpl:163 - ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+[07-02-2016 08:58:52,465] TRACE SynchronizationRegistryStandardImpl:159 - SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+[07-02-2016 08:58:52,465] TRACE SessionImpl:2351 - SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+[07-02-2016 08:58:52,465] TRACE SessionImpl:409 - Closing session
+[07-02-2016 08:58:52,465] TRACE JdbcCoordinatorImpl:187 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@a9f009]
+[07-02-2016 08:58:52,465] DEBUG JdbcCoordinatorImpl:189 - HHH000420: Closing un-released batch
+[07-02-2016 08:58:52,465] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,465] TRACE LogicalConnectionManagedImpl:213 - Closing logical connection
+[07-02-2016 08:58:52,466] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,466] TRACE LogicalConnectionManagedImpl:220 - Logical connection closed
+[07-02-2016 08:58:52,466] TRACE SessionFactoryImpl$SessionBuilderImpl:1317 - Opening Hibernate Session.  tenant=null, owner=null
+[07-02-2016 08:58:52,466] TRACE SessionImpl:219 - Opened session at timestamp: 14548319324
+[07-02-2016 08:58:52,466] DEBUG TransactionImpl:51 - begin
+[07-02-2016 08:58:52,466] TRACE AbstractLogicalConnectionImplementor:66 - Preparing to begin transaction via JDBC Connection.setAutoCommit(false)
+[07-02-2016 08:58:52,467] TRACE AbstractLogicalConnectionImplementor:69 - Transaction begun via JDBC Connection.setAutoCommit(false)
+[07-02-2016 08:58:52,467] TRACE JdbcResourceLocalTransactionCoordinatorImpl:141 - ResourceLocalTransactionCoordinatorImpl#afterBeginCallback
+[07-02-2016 08:58:52,467] TRACE DefaultLoadEventListener:254 - Loading entity: [com.tutorialspoint.example.Employee#2]
+[07-02-2016 08:58:52,467] TRACE DefaultLoadEventListener:435 - Attempting to resolve: [com.tutorialspoint.example.Employee#2]
+[07-02-2016 08:58:52,467] TRACE DefaultLoadEventListener:473 - Object not resolved in any cache: [com.tutorialspoint.example.Employee#2]
+[07-02-2016 08:58:52,467] TRACE AbstractEntityPersister:3952 - Fetching entity: [com.tutorialspoint.example.Employee#2]
+[07-02-2016 08:58:52,467] DEBUG SQL:92 - select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=?
+[07-02-2016 08:58:52,467] TRACE ResourceRegistryStandardImpl:55 - Registering statement [com.mysql.jdbc.JDBC42PreparedStatement@152e3ef: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=** NOT SPECIFIED **]
+[07-02-2016 08:58:52,468] TRACE JdbcCoordinatorImpl:351 - Registering last query statement [com.mysql.jdbc.JDBC42PreparedStatement@152e3ef: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=** NOT SPECIFIED **]
+[07-02-2016 08:58:52,468] TRACE BasicBinder:64 - binding parameter [1] as [INTEGER] - [2]
+[07-02-2016 08:58:52,468] TRACE AbstractLoadPlanBasedLoader:287 - Bound [2] parameters total
+[07-02-2016 08:58:52,468] TRACE ResourceRegistryStandardImpl:182 - Registering result set [com.mysql.jdbc.JDBC42ResultSet@98dead]
+[07-02-2016 08:58:52,469] TRACE ResultSetProcessorImpl:107 - Processing result set
+[07-02-2016 08:58:52,469] DEBUG ResultSetProcessorImpl:110 - Starting ResultSet row #0
+[07-02-2016 08:58:52,469] DEBUG EntityReferenceInitializerImpl:126 - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[07-02-2016 08:58:52,469] TRACE EntityReferenceInitializerImpl:229 - hydrating entity state
+[07-02-2016 08:58:52,469] TRACE EntityReferenceInitializerImpl:281 - Initializing object from ResultSet: [com.tutorialspoint.example.Employee#2]
+[07-02-2016 08:58:52,469] TRACE AbstractEntityPersister:2657 - Hydrating entity: [com.tutorialspoint.example.Employee#2]
+[07-02-2016 08:58:52,469] TRACE BasicExtractor:61 - extracted value ([first_na2_0_0_] : [VARCHAR]) - [Daisy]
+[07-02-2016 08:58:52,469] TRACE BasicExtractor:61 - extracted value ([last_nam3_0_0_] : [VARCHAR]) - [Das]
+[07-02-2016 08:58:52,470] TRACE BasicExtractor:61 - extracted value ([salary4_0_0_] : [INTEGER]) - [5000]
+[07-02-2016 08:58:52,470] TRACE ResultSetProcessorImpl:121 - Done processing result set (1 rows)
+[07-02-2016 08:58:52,470] TRACE AbstractRowReader:231 - Total objects hydrated: 1
+[07-02-2016 08:58:52,470] DEBUG TwoPhaseLoad:144 - Resolving associations for [com.tutorialspoint.example.Employee#2]
+[07-02-2016 08:58:52,470] DEBUG TwoPhaseLoad:274 - Done materializing entity [com.tutorialspoint.example.Employee#2]
+[07-02-2016 08:58:52,470] TRACE ResourceRegistryStandardImpl:91 - Releasing result set [com.mysql.jdbc.JDBC42ResultSet@98dead]
+[07-02-2016 08:58:52,470] TRACE ResourceRegistryStandardImpl:132 - Closing result set [com.mysql.jdbc.JDBC42ResultSet@98dead]
+[07-02-2016 08:58:52,470] TRACE ResourceRegistryStandardImpl:68 - Releasing statement [com.mysql.jdbc.JDBC42PreparedStatement@152e3ef: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=2]
+[07-02-2016 08:58:52,471] DEBUG ResourceRegistryStandardImpl:73 - HHH000387: ResultSet's statement was not registered
+[07-02-2016 08:58:52,471] TRACE ResourceRegistryStandardImpl:148 - Closing prepared statement [com.mysql.jdbc.JDBC42PreparedStatement@152e3ef: select employee0_.id as id1_0_0_, employee0_.first_name as first_na2_0_0_, employee0_.last_name as last_nam3_0_0_, employee0_.salary as salary4_0_0_ from EMPLOYEE employee0_ where employee0_.id=2]
+[07-02-2016 08:58:52,471] TRACE JdbcCoordinatorImpl:271 - Starting after statement execution processing [ON_CLOSE]
+[07-02-2016 08:58:52,471] TRACE StatefulPersistenceContext:914 - Initializing non-lazy collections
+[07-02-2016 08:58:52,471] DEBUG AbstractLoadPlanBasedEntityLoader:189 - Done entity load : com.tutorialspoint.example.Employee#2
+[07-02-2016 08:58:52,472] TRACE DefaultDeleteEventListener:121 - Deleting a persistent instance
+[07-02-2016 08:58:52,472] TRACE DefaultDeleteEventListener:224 - Deleting [com.tutorialspoint.example.Employee#2]
+[07-02-2016 08:58:52,473] TRACE SessionImpl:1500 - Setting cache mode to: GET
+[07-02-2016 08:58:52,473] TRACE SessionImpl:1500 - Setting cache mode to: NORMAL
+[07-02-2016 08:58:52,473] TRACE SessionImpl:1500 - Setting cache mode to: GET
+[07-02-2016 08:58:52,474] TRACE SessionImpl:1500 - Setting cache mode to: NORMAL
+[07-02-2016 08:58:52,474] DEBUG TransactionImpl:62 - committing
+[07-02-2016 08:58:52,474] TRACE JdbcResourceLocalTransactionCoordinatorImpl:145 - ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+[07-02-2016 08:58:52,474] TRACE SessionImpl:2338 - SessionImpl#beforeTransactionCompletion()
+[07-02-2016 08:58:52,474] TRACE SessionImpl:464 - Automatically flushing session
+[07-02-2016 08:58:52,474] TRACE AbstractFlushingEventListener:67 - Flushing session
+[07-02-2016 08:58:52,474] DEBUG AbstractFlushingEventListener:132 - Processing flush-time cascades
+[07-02-2016 08:58:52,474] DEBUG AbstractFlushingEventListener:174 - Dirty checking collections
+[07-02-2016 08:58:52,474] TRACE AbstractFlushingEventListener:189 - Flushing entities and processing referenced collections
+[07-02-2016 08:58:52,474] TRACE AbstractFlushingEventListener:232 - Processing unreferenced collections
+[07-02-2016 08:58:52,474] TRACE AbstractFlushingEventListener:249 - Scheduling collection removes/(re)creates/updates
+[07-02-2016 08:58:52,475] DEBUG AbstractFlushingEventListener:106 - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+[07-02-2016 08:58:52,475] DEBUG AbstractFlushingEventListener:113 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[07-02-2016 08:58:52,475] DEBUG EntityPrinter:102 - Listing entities:
+[07-02-2016 08:58:52,475] DEBUG EntityPrinter:109 - com.tutorialspoint.example.Employee{firstName=Daisy, lastName=Das, id=2, salary=5000}
+[07-02-2016 08:58:52,475] TRACE AbstractFlushingEventListener:325 - Executing flush
+[07-02-2016 08:58:52,475] TRACE AbstractEntityPersister:3139 - Deleting entity: [com.tutorialspoint.example.Employee#2]
+[07-02-2016 08:58:52,475] TRACE BatchBuilderImpl:159 - Building batch [size=1]
+[07-02-2016 08:58:52,476] DEBUG SQL:92 - delete from EMPLOYEE where id=?
+[07-02-2016 08:58:52,476] TRACE ResourceRegistryStandardImpl:55 - Registering statement [com.mysql.jdbc.JDBC42PreparedStatement@1530eb9: delete from EMPLOYEE where id=** NOT SPECIFIED **]
+[07-02-2016 08:58:52,476] TRACE BasicBinder:64 - binding parameter [1] as [INTEGER] - [2]
+[07-02-2016 08:58:52,477] TRACE ResourceRegistryStandardImpl:68 - Releasing statement [com.mysql.jdbc.JDBC42PreparedStatement@1530eb9: delete from EMPLOYEE where id=2]
+[07-02-2016 08:58:52,477] TRACE ResourceRegistryStandardImpl:148 - Closing prepared statement [com.mysql.jdbc.JDBC42PreparedStatement@1530eb9: delete from EMPLOYEE where id=2]
+[07-02-2016 08:58:52,477] TRACE JdbcCoordinatorImpl:271 - Starting after statement execution processing [ON_CLOSE]
+[07-02-2016 08:58:52,477] TRACE JdbcCoordinatorImpl:271 - Starting after statement execution processing [ON_CLOSE]
+[07-02-2016 08:58:52,477] TRACE AbstractFlushingEventListener:357 - Post flush
+[07-02-2016 08:58:52,477] TRACE SynchronizationRegistryStandardImpl:55 - SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+[07-02-2016 08:58:52,477] TRACE AbstractLogicalConnectionImplementor:79 - Preparing to commit transaction via JDBC Connection.commit()
+[07-02-2016 08:58:52,543] TRACE AbstractLogicalConnectionImplementor:82 - Transaction committed via JDBC Connection.commit()
+[07-02-2016 08:58:52,543] TRACE AbstractLogicalConnectionImplementor:54 - LogicalConnection#afterTransaction
+[07-02-2016 08:58:52,544] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,544] TRACE JdbcResourceLocalTransactionCoordinatorImpl:163 - ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+[07-02-2016 08:58:52,545] TRACE SynchronizationRegistryStandardImpl:159 - SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+[07-02-2016 08:58:52,545] TRACE SessionImpl:2351 - SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+[07-02-2016 08:58:52,545] TRACE SessionImpl:409 - Closing session
+[07-02-2016 08:58:52,546] TRACE JdbcCoordinatorImpl:187 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@18040b3]
+[07-02-2016 08:58:52,546] DEBUG JdbcCoordinatorImpl:189 - HHH000420: Closing un-released batch
+[07-02-2016 08:58:52,546] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,546] TRACE LogicalConnectionManagedImpl:213 - Closing logical connection
+[07-02-2016 08:58:52,547] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,548] TRACE LogicalConnectionManagedImpl:220 - Logical connection closed
+[07-02-2016 08:58:52,548] TRACE SessionFactoryImpl$SessionBuilderImpl:1317 - Opening Hibernate Session.  tenant=null, owner=null
+[07-02-2016 08:58:52,549] TRACE SessionImpl:219 - Opened session at timestamp: 14548319325
+[07-02-2016 08:58:52,549] DEBUG TransactionImpl:51 - begin
+[07-02-2016 08:58:52,550] TRACE AbstractLogicalConnectionImplementor:66 - Preparing to begin transaction via JDBC Connection.setAutoCommit(false)
+[07-02-2016 08:58:52,551] TRACE AbstractLogicalConnectionImplementor:69 - Transaction begun via JDBC Connection.setAutoCommit(false)
+[07-02-2016 08:58:52,551] TRACE JdbcResourceLocalTransactionCoordinatorImpl:141 - ResourceLocalTransactionCoordinatorImpl#afterBeginCallback
+[07-02-2016 08:58:52,552] TRACE QueryPlanCache:154 - Located HQL query plan in cache (FROM Employee)
+[07-02-2016 08:58:52,552] TRACE QueryPlanCache:154 - Located HQL query plan in cache (FROM Employee)
+[07-02-2016 08:58:52,552] TRACE HQLQueryPlan:193 - Find: FROM Employee
+[07-02-2016 08:58:52,553] TRACE QueryParameters:285 - Named parameters: {}
+[07-02-2016 08:58:52,553] DEBUG SQL:92 - select employee0_.id as id1_0_, employee0_.first_name as first_na2_0_, employee0_.last_name as last_nam3_0_, employee0_.salary as salary4_0_ from EMPLOYEE employee0_
+[07-02-2016 08:58:52,554] TRACE ResourceRegistryStandardImpl:55 - Registering statement [com.mysql.jdbc.JDBC42PreparedStatement@1f460bb: select employee0_.id as id1_0_, employee0_.first_name as first_na2_0_, employee0_.last_name as last_nam3_0_, employee0_.salary as salary4_0_ from EMPLOYEE employee0_]
+[07-02-2016 08:58:52,554] TRACE JdbcCoordinatorImpl:351 - Registering last query statement [com.mysql.jdbc.JDBC42PreparedStatement@1f460bb: select employee0_.id as id1_0_, employee0_.first_name as first_na2_0_, employee0_.last_name as last_nam3_0_, employee0_.salary as salary4_0_ from EMPLOYEE employee0_]
+[07-02-2016 08:58:52,555] TRACE Loader:1978 - Bound [1] parameters total
+[07-02-2016 08:58:52,556] TRACE ResourceRegistryStandardImpl:182 - Registering result set [com.mysql.jdbc.JDBC42ResultSet@a1923a]
+[07-02-2016 08:58:52,557] TRACE Loader:965 - Processing result set
+[07-02-2016 08:58:52,557] DEBUG Loader:384 - Result set row: 0
+[07-02-2016 08:58:52,558] TRACE BasicExtractor:61 - extracted value ([id1_0_] : [INTEGER]) - [1]
+[07-02-2016 08:58:52,558] DEBUG Loader:1514 - Result row: EntityKey[com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,559] TRACE Loader:1700 - Initializing object from ResultSet: [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,559] TRACE AbstractEntityPersister:2657 - Hydrating entity: [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,560] TRACE BasicExtractor:61 - extracted value ([first_na2_0_] : [VARCHAR]) - [Zara]
+[07-02-2016 08:58:52,560] TRACE BasicExtractor:61 - extracted value ([last_nam3_0_] : [VARCHAR]) - [Ali]
+[07-02-2016 08:58:52,561] TRACE BasicExtractor:61 - extracted value ([salary4_0_] : [INTEGER]) - [5000]
+[07-02-2016 08:58:52,561] DEBUG Loader:384 - Result set row: 1
+[07-02-2016 08:58:52,561] TRACE BasicExtractor:61 - extracted value ([id1_0_] : [INTEGER]) - [3]
+[07-02-2016 08:58:52,561] DEBUG Loader:1514 - Result row: EntityKey[com.tutorialspoint.example.Employee#3]
+[07-02-2016 08:58:52,562] TRACE Loader:1700 - Initializing object from ResultSet: [com.tutorialspoint.example.Employee#3]
+[07-02-2016 08:58:52,562] TRACE AbstractEntityPersister:2657 - Hydrating entity: [com.tutorialspoint.example.Employee#3]
+[07-02-2016 08:58:52,562] TRACE BasicExtractor:61 - extracted value ([first_na2_0_] : [VARCHAR]) - [John]
+[07-02-2016 08:58:52,562] TRACE BasicExtractor:61 - extracted value ([last_nam3_0_] : [VARCHAR]) - [Paul]
+[07-02-2016 08:58:52,563] TRACE BasicExtractor:61 - extracted value ([salary4_0_] : [INTEGER]) - [10000]
+[07-02-2016 08:58:52,563] TRACE Loader:990 - Done processing result set (2 rows)
+[07-02-2016 08:58:52,563] TRACE Loader:1130 - Total objects hydrated: 2
+[07-02-2016 08:58:52,564] DEBUG TwoPhaseLoad:144 - Resolving associations for [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,564] DEBUG TwoPhaseLoad:274 - Done materializing entity [com.tutorialspoint.example.Employee#1]
+[07-02-2016 08:58:52,564] DEBUG TwoPhaseLoad:144 - Resolving associations for [com.tutorialspoint.example.Employee#3]
+[07-02-2016 08:58:52,564] DEBUG TwoPhaseLoad:274 - Done materializing entity [com.tutorialspoint.example.Employee#3]
+[07-02-2016 08:58:52,565] TRACE ResourceRegistryStandardImpl:68 - Releasing statement [com.mysql.jdbc.JDBC42PreparedStatement@1f460bb: select employee0_.id as id1_0_, employee0_.first_name as first_na2_0_, employee0_.last_name as last_nam3_0_, employee0_.salary as salary4_0_ from EMPLOYEE employee0_]
+[07-02-2016 08:58:52,565] TRACE ResourceRegistryStandardImpl:132 - Closing result set [com.mysql.jdbc.JDBC42ResultSet@a1923a]
+[07-02-2016 08:58:52,565] TRACE ResourceRegistryStandardImpl:148 - Closing prepared statement [com.mysql.jdbc.JDBC42PreparedStatement@1f460bb: select employee0_.id as id1_0_, employee0_.first_name as first_na2_0_, employee0_.last_name as last_nam3_0_, employee0_.salary as salary4_0_ from EMPLOYEE employee0_]
+[07-02-2016 08:58:52,565] TRACE JdbcCoordinatorImpl:271 - Starting after statement execution processing [ON_CLOSE]
+[07-02-2016 08:58:52,566] TRACE StatefulPersistenceContext:914 - Initializing non-lazy collections
+[07-02-2016 08:58:52,566] DEBUG TransactionImpl:62 - committing
+[07-02-2016 08:58:52,566] TRACE JdbcResourceLocalTransactionCoordinatorImpl:145 - ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+[07-02-2016 08:58:52,566] TRACE SessionImpl:2338 - SessionImpl#beforeTransactionCompletion()
+[07-02-2016 08:58:52,566] TRACE SessionImpl:464 - Automatically flushing session
+[07-02-2016 08:58:52,567] TRACE AbstractFlushingEventListener:67 - Flushing session
+[07-02-2016 08:58:52,567] DEBUG AbstractFlushingEventListener:132 - Processing flush-time cascades
+[07-02-2016 08:58:52,567] DEBUG AbstractFlushingEventListener:174 - Dirty checking collections
+[07-02-2016 08:58:52,567] TRACE AbstractFlushingEventListener:189 - Flushing entities and processing referenced collections
+[07-02-2016 08:58:52,568] TRACE AbstractFlushingEventListener:232 - Processing unreferenced collections
+[07-02-2016 08:58:52,568] TRACE AbstractFlushingEventListener:249 - Scheduling collection removes/(re)creates/updates
+[07-02-2016 08:58:52,568] DEBUG AbstractFlushingEventListener:106 - Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+[07-02-2016 08:58:52,568] DEBUG AbstractFlushingEventListener:113 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[07-02-2016 08:58:52,568] DEBUG EntityPrinter:102 - Listing entities:
+[07-02-2016 08:58:52,569] DEBUG EntityPrinter:109 - com.tutorialspoint.example.Employee{firstName=John, lastName=Paul, id=3, salary=10000}
+[07-02-2016 08:58:52,569] DEBUG EntityPrinter:109 - com.tutorialspoint.example.Employee{firstName=Zara, lastName=Ali, id=1, salary=5000}
+[07-02-2016 08:58:52,569] TRACE AbstractFlushingEventListener:325 - Executing flush
+[07-02-2016 08:58:52,569] TRACE JdbcCoordinatorImpl:271 - Starting after statement execution processing [ON_CLOSE]
+[07-02-2016 08:58:52,569] TRACE AbstractFlushingEventListener:357 - Post flush
+[07-02-2016 08:58:52,570] TRACE SynchronizationRegistryStandardImpl:55 - SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+[07-02-2016 08:58:52,570] TRACE AbstractLogicalConnectionImplementor:79 - Preparing to commit transaction via JDBC Connection.commit()
+[07-02-2016 08:58:52,570] TRACE AbstractLogicalConnectionImplementor:82 - Transaction committed via JDBC Connection.commit()
+[07-02-2016 08:58:52,571] TRACE AbstractLogicalConnectionImplementor:54 - LogicalConnection#afterTransaction
+[07-02-2016 08:58:52,571] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,571] TRACE JdbcResourceLocalTransactionCoordinatorImpl:163 - ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+[07-02-2016 08:58:52,571] TRACE SynchronizationRegistryStandardImpl:159 - SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+[07-02-2016 08:58:52,572] TRACE SessionImpl:2351 - SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+[07-02-2016 08:58:52,572] TRACE SessionImpl:409 - Closing session
+[07-02-2016 08:58:52,572] TRACE JdbcCoordinatorImpl:187 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@f7678]
+[07-02-2016 08:58:52,572] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,572] TRACE LogicalConnectionManagedImpl:213 - Closing logical connection
+[07-02-2016 08:58:52,573] TRACE ResourceRegistryStandardImpl:286 - Releasing JDBC resources
+[07-02-2016 08:58:52,573] TRACE LogicalConnectionManagedImpl:220 - Logical connection closed
+[07-02-2016 08:59:21,426] DEBUG DriverManagerConnectionProviderImpl:49 - Connection pool now considered primed; min-size will be maintained
