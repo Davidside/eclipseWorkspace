@@ -11,7 +11,7 @@ public class Main {
 		
 		student.setAge(20);
 		student.setName("David");
-		student.setType(getTypeSwitch(responseCode));
+		student.setType(Type.getByCode(responseCode));
 		
 //		if(FRESH_MAN.equals(resposeCode)) {
 //			student.setType(Type.FRESH_MAN);
