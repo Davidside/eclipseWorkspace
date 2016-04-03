@@ -14,7 +14,7 @@ public class DateTimeZoneExample {
 		
 		System.out.println(utcTime);
 		System.out.println(localTime);
-
+		System.out.println(new DateTime(DateTimeZone.UTC).toDate().toString());
 	}
 
 }

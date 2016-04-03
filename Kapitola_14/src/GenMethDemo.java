@@ -38,9 +38,9 @@ class GenMethDemo {
 		
 		// Z NEJAKEHO DUVODU TOTO MOZNE ZKOMPILOVAT LZE ?!?!
 		// Toto nebude mozne zkompilovat! Typy musi byt kompatibilni.
-		// if(isIn("dve", nums)) {
-		// 		System.out.println("Retezec dve je v poli nums");
-		// } 
+		 if(isIn(new String("dve"), nums)) {
+		 		System.out.println("Retezec dve je v poli nums");
+		 } 
 	}
 
 }
