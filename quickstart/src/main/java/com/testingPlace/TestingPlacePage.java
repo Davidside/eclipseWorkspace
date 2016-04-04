@@ -17,29 +17,15 @@ public class TestingPlacePage extends WebPage {
 	private static final long serialVersionUID = 1L;
 	private static final String CZECH_LANGUAGE = "cs";
 	
-	private List<Locale> locales = Arrays.asList(Locale.ENGLISH, Locale.GERMAN, new Locale(CZECH_LANGUAGE));
+	private List<Locale> supportedLocales = Arrays.asList(Locale.ENGLISH, Locale.GERMAN, new Locale(CZECH_LANGUAGE));
 	private List<String> selectionList = Arrays.asList("Selection one", "Selection two", "Selection three");
 	private String selection;
 	private Locale selectionLocale = Session.get().getLocale();
 	
 	public TestingPlacePage () {
-		final DropDownChoice<Locale> ddcLocale = new DropDownChoice<Locale>("selectLocale", new PropertyModel<Locale>(this, "selectionLocale"), locales) {
-			
-		};
-		ddcLocale.setDefaultModelObject(selectionLocale);
-		
-		Form<Locale> formLocale = new Form<Locale>("formLocale") {
-		
-			private static final long serialVersionUID = 1L;
+		final LocaleDropDown ddcLocale = new LocaleDropDown("selectLocale", supportedLocales);
 
-			@Override
-			protected void onSubmit() {
-				Session.get().setLocale(ddcLocale.getModelObject());
-			}
-		};
-		
-		add(formLocale);
-		formLocale.add(ddcLocale);
+		add(ddcLocale);
 		
 		// set dropDownChoice selection based on locale
 		Form<String> form = new Form<>("form");
