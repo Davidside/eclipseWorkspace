@@ -15,7 +15,7 @@ public class LocaleDropDown extends DropDownChoice<Locale> {
 		
 		@Override
 		public Object getDisplayValue(Locale locale) {
-			return ((Locale) locale).getDisplayName(getLocale());
+			return ((Locale) locale).getDisplayName(locale);
 		}
 	}
 	
