@@ -19,7 +19,7 @@
 		<table>
 			<tr>
 				<td>
-					<select wicket:id="select">
+					<select wicket:id="selection">
 						<option>Value 1</option>
 						<option>Value 2</option>
 					</select>
@@ -28,9 +28,11 @@
 			<tr>
 				<td>
 					<input type="submit" value="Select" />
+					<input wicket:id="reset" type="submit" value="Reset" />
 				</td>
 			</tr>
 		</table>
 		</form>
+		<span wicket:id="selected">selected</span>
 	</body>
 </html>
