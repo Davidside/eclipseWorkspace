@@ -6,7 +6,7 @@ public class TestingPlaceApplication extends WebApplication {
 	public TestingPlaceApplication() {
 	}
 	
-	public Class getHomePage() {
+	public Class<TestingPlacePage> getHomePage() {
 		return TestingPlacePage.class;
 	}
 }
