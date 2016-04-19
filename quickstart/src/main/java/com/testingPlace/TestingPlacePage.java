@@ -1,15 +1,23 @@
 package com.testingPlace;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
+import org.apache.wicket.extensions.markup.html.form.DateTextField;
+import org.apache.wicket.extensions.yui.calendar.DatePicker;
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.markup.html.form.Button;
 import org.apache.wicket.markup.html.form.ChoiceRenderer;
 import org.apache.wicket.markup.html.form.DropDownChoice;
 import org.apache.wicket.markup.html.form.Form;
+import org.apache.wicket.markup.html.form.FormComponent;
+import org.apache.wicket.markup.html.form.validation.AbstractFormValidator;
+import org.apache.wicket.markup.html.form.validation.IFormValidator;
+import org.apache.wicket.markup.html.panel.FeedbackPanel;
 import org.apache.wicket.model.Model;
 import org.apache.wicket.model.PropertyModel;
 import org.apache.wicket.model.ResourceModel;
@@ -74,6 +82,44 @@ public class TestingPlacePage extends WebPage {
 		};
 		form.add(reset);
 		
+		Form<String> dateForm = new Form<String>("dateForm");
+		add(dateForm);
+		
+		dateForm.add(new DropDownChoice<EnumInterface>(
+				"ddcEnum", 
+				new PropertyModel<EnumInterface>(model, "enumInterface"), 
+				new ArrayList<EnumInterface>(Arrays.asList(EnumInterface.values())),
+				new EnumRenderer()
+						).setNullValid(true));
+		
+		final DateTextField dateFieldFrom = new DateTextField("dateFieldFrom", new PropertyModel<Date>(model, "dateFrom"), "dd.MM.yyyy");
+		dateFieldFrom.add(new DatePicker());
+		
+		final DateTextField dateFieldTo = new DateTextField("dateFieldTo", new PropertyModel<Date>(model, "dateTo"), "dd.MM.yyyy");
+		dateFieldTo.add(new DatePicker());
+		
+		dateForm.add(dateFieldFrom);
+		dateForm.add(dateFieldTo);
+		
+		IFormValidator validator = new AbstractFormValidator() {
+		    private static final long serialVersionUID = 1L;
+
+			public FormComponent<?>[] getDependentFormComponents() {
+		        return new FormComponent[] { dateFieldFrom, dateFieldTo };
+		    }
+
+		    public void validate(Form<?> form) {
+		        Date startDate = (Date) dateFieldFrom.getConvertedInput();
+		        Date endDate = (Date) dateFieldTo.getConvertedInput();
+
+		        if (endDate.before(startDate)){
+		            error(dateFieldTo, "date.to.error");
+		        }
+		    }
+		};
+		dateForm.add(validator);
+		dateForm.add(new FeedbackPanel("feedback"));
+		
 	}
 	
 	private class SelectChoiceRenderer extends ChoiceRenderer<String> {
@@ -83,5 +129,27 @@ public class TestingPlacePage extends WebPage {
 		public Object getDisplayValue(String object) {
 			return new ResourceModel("select." + object, object).getObject();
 		}
+	}
+	
+	private class EnumRenderer extends ChoiceRenderer<EnumInterface> {
+
+		private static final long serialVersionUID = 1L;
+
+		@Override
+		public Object getDisplayValue(EnumInterface object) {
+			return new ResourceModel("enum." + object.name(), object.name()).getObject();
+		}
+
+//		@Override
+//		public String getIdValue(EnumInterface object, int index) {
+//			return Integer.toString(index);
+//		}
+//
+//		@Override
+//		public EnumInterface getObject(String id, IModel<? extends List<? extends EnumInterface>> choices) {
+//			// TODO Auto-generated method stub
+//			return null;
+//		}
+		
 	}
 }
