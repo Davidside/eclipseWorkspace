@@ -1,0 +1,79 @@
+<ignite
+	gridName = "String" 
+	includeEventTypes = "int[]" 
+	localEventListeners = "int[]" 
+	metricsLogFrequency = "long" 
+	peerClassLoadingEnabled = "boolean">
+	
+		<cache
+		atomicMode = "ATOMIC/TRANSACTIONAL" 
+		backups = "int" 
+		cacheMode = "LOCAL/PARTITIONED/REPLICATED" 
+		eagerTtl = "boolean"
+		memoryMode = "OFFHEAP_TIERED/OFFHEAP_VALUES/ONHEAP_TIERED" 
+		name = "String" 
+		offHeapMaxMemory = "long" 
+		startSize = "int" 
+		statisticsEnabled = "boolean"
+		swapEnabled = "boolean">
+	
+			<evictionPolicy 
+			type = "Lru/Fifo/Sorted" 
+			maxMemorySize = "long" 
+			maxSize = "int" 
+			batchSize = "int">
+			</evictionPolicy>
+			
+			<expiryPolicy
+			type = "Created/Accessed/Modified/Touched/Eternal" 
+			time = "long">
+			</expiryPolicy>
+	
+		</cache>
+		
+		<cache>
+		...
+		</cache>
+		
+		<tcpDiscoverySpi
+		type = "Multicast/Static"
+		localAddress = "String"
+		localPort = "int"
+		localPortRange = "int"
+		multicastGroup = "String"
+		addresses = "String[]">
+		</tcpDiscoverySpi>
+
+</ignite>
+
+<!-- eagerTtl = true if Ignite should eagerly remove expired cache entries. When set to false, expired entries will be removed on next entry access.-->
+
+<!-- atomicMode
+ATOMIC
+Specifies atomic-only cache behaviour.
+
+TRANSACTIONAL
+Specified fully ACID-compliant transactional cache behavior.
+ -->
+ 
+ <!-- cacheMode
+ LOCAL
+Specifies local-only cache behaviour.
+
+PARTITIONED
+Specifies partitioned cache behaviour.
+
+REPLICATED
+Specifies fully replicated cache behavior.
+  -->
+
+<!-- memoryMode
+OFFHEAP_TIERED
+Works the same as ONHEAP_TIERED, except that entries never end up in heap memory and get stored in offheap memory right away.
+
+OFFHEAP_VALUES
+Entry keys will be stored on heap memory, and values will be stored in offheap memory.
+
+ONHEAP_TIERED
+Entries will be stored on-heap first.
+ -->
