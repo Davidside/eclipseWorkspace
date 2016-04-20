@@ -35,29 +35,31 @@
 		</form>
 		<span wicket:id="selected">selected</span>
 		<br>
-		<form wicket:id="dateForm">
-			<table>
-				<tr>
-					<td>
-						<select wicket:id="ddcEnum">
-							<option>ENUM_1</option>
-							<option>ENUM_2</option>
-						</select>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<input type="text" wicket:id="dateFieldFrom">
-						<input type="text" wicket:id="dateFieldTo">
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<input type="submit" value="Select Date" />
-					</td>
-				</tr>
-			</table>
-			<div wicket:id="feedback">feedback</div>
-		</form>
+		<div wicket:id="group" style="margin-left: 50px">
+			<form wicket:id="dateForm">
+				<table>
+					<tr>
+						<td>
+							<select wicket:id="ddcEnum">
+								<option>ENUM_1</option>
+								<option>ENUM_2</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" wicket:id="dateFieldFrom">
+							<input type="text" wicket:id="dateFieldTo">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="submit" value="Select Date" />
+						</td>
+					</tr>
+				</table>
+				<div wicket:id="feedback">feedback</div>
+			</form>
+		</div>
 	</body>
 </html>

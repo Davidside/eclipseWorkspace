@@ -6,8 +6,11 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
+import org.apache.wicket.behavior.AbstractAjaxBehavior;
 import org.apache.wicket.extensions.markup.html.form.DateTextField;
 import org.apache.wicket.extensions.yui.calendar.DatePicker;
+import org.apache.wicket.markup.ComponentTag;
+import org.apache.wicket.markup.html.WebMarkupContainer;
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.markup.html.form.Button;
@@ -82,13 +85,37 @@ public class TestingPlacePage extends WebPage {
 		};
 		form.add(reset);
 		
-		Form<String> dateForm = new Form<String>("dateForm");
-		add(dateForm);
+	 /***********************************/
 		
-		dateForm.add(new DropDownChoice<EnumInterface>(
+		WebMarkupContainer group = new WebMarkupContainer("group");
+		group.add(new AbstractAjaxBehavior() {
+			
+			private static final long serialVersionUID = 1L;
+
+			@Override
+			protected void onComponentTag(ComponentTag tag) {
+				tag.getAttributes().remove("style");
+			}
+			
+			@Override
+			public void onRequest() {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+//		group.add(AttributeModifier.remove("style"));
+//		group.add(new AttributeModifier("style", ""));
+		add(group);
+		
+		Form<String> dateForm = new Form<String>("dateForm");
+		group.add(dateForm);
+		
+		List<EnumInterface> enumList = new ArrayList<EnumInterface>(Arrays.asList(EnumInterface.values()));
+		
+		dateForm.add(new OrderedDropDownChoice<EnumInterface>(
 				"ddcEnum", 
 				new PropertyModel<EnumInterface>(model, "enumInterface"), 
-				new ArrayList<EnumInterface>(Arrays.asList(EnumInterface.values())),
+				Model.ofList(enumList),
 				new EnumRenderer()
 						).setNullValid(true));
 		

@@ -113,6 +113,14 @@
 			<version>${jetty9.version}</version>
 			<scope>test</scope>
 		</dependency>
+		
+		<!--  GUAVA  -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>19.0</version>
+		</dependency>
+		
 	</dependencies>
 	<build>
 		<resources>
