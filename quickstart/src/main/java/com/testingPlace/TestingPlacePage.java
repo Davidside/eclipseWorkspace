@@ -7,7 +7,8 @@ import java.util.List;
 import java.util.Locale;
 
 import org.apache.wicket.behavior.AbstractAjaxBehavior;
-import org.apache.wicket.extensions.markup.html.form.DateTextField;
+import org.apache.wicket.datetime.StyleDateConverter;
+import org.apache.wicket.datetime.markup.html.form.DateTextField;
 import org.apache.wicket.extensions.yui.calendar.DatePicker;
 import org.apache.wicket.markup.ComponentTag;
 import org.apache.wicket.markup.html.WebMarkupContainer;
@@ -17,9 +18,6 @@ import org.apache.wicket.markup.html.form.Button;
 import org.apache.wicket.markup.html.form.ChoiceRenderer;
 import org.apache.wicket.markup.html.form.DropDownChoice;
 import org.apache.wicket.markup.html.form.Form;
-import org.apache.wicket.markup.html.form.FormComponent;
-import org.apache.wicket.markup.html.form.validation.AbstractFormValidator;
-import org.apache.wicket.markup.html.form.validation.IFormValidator;
 import org.apache.wicket.markup.html.panel.FeedbackPanel;
 import org.apache.wicket.model.Model;
 import org.apache.wicket.model.PropertyModel;
@@ -107,7 +105,7 @@ public class TestingPlacePage extends WebPage {
 //		group.add(new AttributeModifier("style", ""));
 		add(group);
 		
-		Form<String> dateForm = new Form<String>("dateForm");
+		Form<?> dateForm = new Form<Void>("dateForm");
 		group.add(dateForm);
 		
 		List<EnumInterface> enumList = new ArrayList<EnumInterface>(Arrays.asList(EnumInterface.values()));
@@ -119,32 +117,23 @@ public class TestingPlacePage extends WebPage {
 				new EnumRenderer()
 						).setNullValid(true));
 		
-		final DateTextField dateFieldFrom = new DateTextField("dateFieldFrom", new PropertyModel<Date>(model, "dateFrom"), "dd.MM.yyyy");
-		dateFieldFrom.add(new DatePicker());
+		final DateTextField dateFieldFrom = new DateTextField("dateFieldFrom", new PropertyModel<Date>(model, "dateFrom"), new StyleDateConverter("M-", true));
+		final DateTextField dateFieldTo = new DateTextField("dateFieldTo", new PropertyModel<Date>(model, "dateTo"), new StyleDateConverter("M-", true));
 		
-		final DateTextField dateFieldTo = new DateTextField("dateFieldTo", new PropertyModel<Date>(model, "dateTo"), "dd.MM.yyyy");
-		dateFieldTo.add(new DatePicker());
+		DatePicker datePicker = new DatePicker();
+		datePicker.setAutoHide(true);
+		datePicker.setShowOnFieldClick(true);
+		DatePicker datePicker2 = new DatePicker();
+		datePicker2.setAutoHide(true);
+		datePicker2.setShowOnFieldClick(true);
+		
+		dateFieldFrom.add(datePicker);
+		dateFieldTo.add(datePicker2);
 		
 		dateForm.add(dateFieldFrom);
 		dateForm.add(dateFieldTo);
 		
-		IFormValidator validator = new AbstractFormValidator() {
-		    private static final long serialVersionUID = 1L;
-
-			public FormComponent<?>[] getDependentFormComponents() {
-		        return new FormComponent[] { dateFieldFrom, dateFieldTo };
-		    }
-
-		    public void validate(Form<?> form) {
-		        Date startDate = (Date) dateFieldFrom.getConvertedInput();
-		        Date endDate = (Date) dateFieldTo.getConvertedInput();
-
-		        if (endDate.before(startDate)){
-		            error(dateFieldTo, "date.to.error");
-		        }
-		    }
-		};
-		dateForm.add(validator);
+		dateForm.add(new GreaterOrEqualDateValidator(dateFieldFrom, dateFieldTo));
 		dateForm.add(new FeedbackPanel("feedback"));
 		
 	}
