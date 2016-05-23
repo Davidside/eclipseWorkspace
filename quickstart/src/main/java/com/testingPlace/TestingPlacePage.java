@@ -7,8 +7,7 @@ import java.util.List;
 import java.util.Locale;
 
 import org.apache.wicket.behavior.AbstractAjaxBehavior;
-import org.apache.wicket.datetime.StyleDateConverter;
-import org.apache.wicket.datetime.markup.html.form.DateTextField;
+import org.apache.wicket.extensions.markup.html.form.DateTextField;
 import org.apache.wicket.extensions.yui.calendar.DatePicker;
 import org.apache.wicket.markup.ComponentTag;
 import org.apache.wicket.markup.html.WebMarkupContainer;
@@ -18,6 +17,7 @@ import org.apache.wicket.markup.html.form.Button;
 import org.apache.wicket.markup.html.form.ChoiceRenderer;
 import org.apache.wicket.markup.html.form.DropDownChoice;
 import org.apache.wicket.markup.html.form.Form;
+import org.apache.wicket.markup.html.form.TextField;
 import org.apache.wicket.markup.html.panel.FeedbackPanel;
 import org.apache.wicket.model.Model;
 import org.apache.wicket.model.PropertyModel;
@@ -35,6 +35,7 @@ public class TestingPlacePage extends WebPage {
 	private Model<Selection> model = new Model<Selection>(new Selection());
 	
 	public TestingPlacePage () {
+		
 		// set LocalDropDown
 		final LocaleDropDown ddcLocale = new LocaleDropDown("selectLocale", supportedLocales);
 
@@ -117,8 +118,8 @@ public class TestingPlacePage extends WebPage {
 				new EnumRenderer()
 						).setNullValid(true));
 		
-		final DateTextField dateFieldFrom = new DateTextField("dateFieldFrom", new PropertyModel<Date>(model, "dateFrom"), new StyleDateConverter("M-", true));
-		final DateTextField dateFieldTo = new DateTextField("dateFieldTo", new PropertyModel<Date>(model, "dateTo"), new StyleDateConverter("M-", true));
+		final DateTextField dateFieldFrom = new DateTextField("dateFieldFrom", new PropertyModel<Date>(model, "dateFrom"), "dd.MM.yyyy");
+		final DateTextField dateFieldTo = new DateTextField("dateFieldTo", new PropertyModel<Date>(model, "dateTo"), "dd.MM.yyyy");
 		
 		DatePicker datePicker = new DatePicker();
 		datePicker.setAutoHide(true);
@@ -134,6 +135,11 @@ public class TestingPlacePage extends WebPage {
 		dateForm.add(dateFieldTo);
 		
 		dateForm.add(new GreaterOrEqualDateValidator(dateFieldFrom, dateFieldTo));
+		
+		TextField<String> netmaskTf = new TextField<>("netmask", new Model<String>());
+		netmaskTf.add(new NetmaskValidator());
+		dateForm.add(netmaskTf);
+		
 		dateForm.add(new FeedbackPanel("feedback"));
 		
 	}
