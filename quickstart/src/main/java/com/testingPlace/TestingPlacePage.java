@@ -142,6 +142,7 @@ public class TestingPlacePage extends WebPage {
 		
 		dateForm.add(new FeedbackPanel("feedback"));
 		
+		dateForm.add(new DateTimeField("dateTime", new Model<Date>(new Date())));
 	}
 	
 	private class SelectChoiceRenderer extends ChoiceRenderer<String> {
